@@ -1,0 +1,14 @@
+name: Daily build
+
+on:
+  schedule:
+    - cron:  '0 * * * *' # Update to '0 0 * * *'
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/brandorn/brandon.github.io/gc-advent/pages/builds"
