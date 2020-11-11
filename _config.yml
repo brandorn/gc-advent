@@ -1,21 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Gathering Church 2020 Advent Calendar
+description: Description of the calendar...
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+week_1_theme: Hold Hope
+week_1_practice: Week 1 practice...
 
-# Build settings
+week_2_theme: Bring Peace
+week_2_practice: Week 2 practice...
+
+week_3_theme: Practice Joy
+week_3_practice: Week 3 practice...
+
+week_4_theme: Choose Love
+week_4_practice: Week 4 practice...
+
+week_5_theme: Shine Light
+week_5_practice: Week 5 practice...
+
+
+url: "https://www.gcadvent.com"
+gathering_url: http://allgather.org
+
 markdown: kramdown
+sass:
+  sass_dir: src/styles/_sass

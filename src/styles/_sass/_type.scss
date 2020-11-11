@@ -1,0 +1,50 @@
+/* === Sans-serif === */
+
+@font-face {
+  src: url(/src/fonts/BertholdAkzidenz-Light.otf);
+  font-family: 'Berthold Akzidenz Grotesk';
+  font-style: normal;
+  font-weight: 100;
+}
+
+$sans: 'Berthold Akzidenz Grotesk', -apple-system, Helvetica, Arial, sans-serif;
+.sans { font-family: $sans; }
+
+
+/* === Serif === */
+
+@font-face {
+  src: url(/src/fonts/Calluna-Regular.otf);
+  font-family: 'Calluna';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/src/fonts/Calluna-RegularItalic.otf);
+  font-family: 'Calluna';
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(/src/fonts/Calluna-Bold.otf);
+  font-family: 'Calluna';
+  font-style: normal;
+  font-weight: 500;
+}
+
+$serif: 'Calluna', Georgia, serif;
+.serif { font-family: $serif; }
+
+
+/* === Type Mixins === */
+
+@mixin sans {
+  font-family: $sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
