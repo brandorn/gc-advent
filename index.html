@@ -4,13 +4,7 @@ layout: default
 
 <h1>GC Advent Calendar mic check mic check</h1>
 
-{% capture today %}{{ site.time | date: '%s' %}}{% endcapture %}
-{% assign tomorrow = today | plus: 86400 %}
-{% assign two_days = today | plus: 172800 %}
-
-<p>Today: {{ today }}</p>
-<p>Tomorrow: {{ tomorrow }}</p>
-<p>Two days: {{ two_days }}</p>
+<p>Last build: {{ site.time | date: '%a %b %d %T' }}</p>
 
 {% for post in site.posts limit:1 %} 
 
