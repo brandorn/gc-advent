@@ -1,6 +1,12 @@
 name: Daily build
 
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'Test'
   schedule:
     - cron:  '0 * * * *' # Update to '0 0 * * *'
 
