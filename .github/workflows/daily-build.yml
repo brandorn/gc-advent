@@ -11,4 +11,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/brandorn/brandon.github.io/gc-advent/pages/builds"
+        args: "-X POST -H 'Authorization: token ${{ secrets.41348eb141f760b19498a81dc5162f481ac9fe4c }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/brandorn/brandon.github.io/gc-advent/pages/builds"
