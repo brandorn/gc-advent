@@ -8,7 +8,7 @@ on:
         required: true
         default: 'Test'
   schedule:
-    - cron:  '0 * * * *' # Update to '0 0 * * *'
+    - cron:  '30 0 * * *'
 
 jobs:
   curl:
