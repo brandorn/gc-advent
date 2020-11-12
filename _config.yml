@@ -21,5 +21,6 @@ url: "https://www.gcadvent.com"
 gathering_url: http://allgather.org
 
 markdown: kramdown
+future: false
 sass:
   sass_dir: src/styles/_sass
