@@ -4,6 +4,25 @@ layout: default
 
 <h1>GC Advent Calendar mic check mic check</h1>
 
+{% capture today %}{{ site.time | date: '%s' %}}{% endcapture %}
+{% assign tomorrow = today | plus: 86400 %}
+{% assign two_days = today | plus: 172800 %}
+
+<p>Today: {{ today }}</p>
+<p>Tomorrow: {{ tomorrow }}</p>
+<p>Two days: {{ two_days }}</p>
+
+{% for post in site.posts limit:1 %} 
+
+	{% capture post_day %}{{ post.date | date: '%s' }}{% endcapture %}
+
+		<h2>Today's Reading</h2>
+		<p><a href="{{ post.url }}"> {{ post.date | date: '%A %b %-d, %Y' }}</a></p>
+
+{% endfor %}
+
+
+
 <ul>
 	{% for post in site.posts reversed %}
 	<li><a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a></li>
