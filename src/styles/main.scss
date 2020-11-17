@@ -5,19 +5,72 @@
 // Colors
 
 $white-01: rgba(255,255,255, 1);
+$white-02: rgba(255,255,255, 0.8);
+$white-03: rgba(255,255,255, 0.6);
+$white-04: rgba(255,255,255, 0.4);
+$white-05: rgba(255,255,255, 0.2);
+$white-06: rgba(255,255,255, 0.1);
 
-$black-01: rgba(0,0,0,.86);
-$black-02: rgba(0,0,0,.54);
-$black-03: rgba(0,0,0,.42);
-$black-04: rgba(0,0,0,.16);
-$black-05: rgba(0,0,0,.08);
-$black-06: rgba(0,0,0,.02);
+$black-01: rgba(0,0,0,.94);
+$black-02: rgba(0,0,0,.87);
+$black-03: rgba(0,0,0,.68);
+$black-04: rgba(0,0,0,.5);
+$black-05: rgba(0,0,0,.2);
+$black-06: rgba(0,0,0,.08);
 
+$blue-01: #1F2659;
+$blue-02: #353F8A;
+$blue-03: #636A9C;
+$blue-05: #CED2F1;
+
+$brown-01: #383529;
+$brown-02: #676250;
+$brown-03: #928D7D;
+$brown-04: #928D7D;
+$brown-05: #FBFAF7;
 
 // Shadows
 
+@mixin shadow-default {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	transition: ease-in 200ms;
+}
+
+@mixin shadow-hover {
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-8px);
+	transition: ease-in 200ms;
+}
+
 
 // Transitions
+
+@mixin transition-primary { transition: ease-in 100ms; }
+
+@keyframes fade-up-in {
+  from { transform: translateY(1rem); }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin fade-up-in {
+  opacity: 0;
+  animation: fade-up-in 300ms;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {  }
+  to { opacity: 1; }
+}
+
+@mixin fade-in {
+  opacity: 0;
+  animation: fade-in 300ms;
+  animation-fill-mode: both;
+}
 
 
 
