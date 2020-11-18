@@ -71,6 +71,14 @@ Pumpkins and spoons endure for a night; but Joy comes in the morning. <br>
 Joy laughs that we laugh, <br>
 and builds on itself <br>
 and endures.
+
+<figure>
+	<img src="/src/img/dec-16-1.jpg">
+</figure>
+
+<figure>
+	<img src="/src/img/dec-16-2.jpg">
+</figure>
  
 At Advent we practice joy because it heals the wounds of fear, gives life and endures.
  
