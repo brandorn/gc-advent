@@ -4,75 +4,113 @@ layout: default
 
 
 <div class="intro">
-	<a href="{{ post.url }}" class="todays-reading">
 	{% for post in site.posts limit:1 %} 
-		<p class="label">Today's Reading · {{ post.date | date: '%A %b %-d' }}</p>
-		<p class="title">{{ post.scripture }}</p>
-		<p class="author">{{ post.author }}</p>
-		<p class="excerpt">{{ post.excerpt | strip_newlines | truncate: 200}}</p>
-		<p class="read-on">Read on </p>
+	<a href="{{ post.url }}" class="todays-reading">
+			<p class="label"><span>Today's Reading</span> · {{ post.date | date: '%A %b %-d' }}</p>
+			<p class="title">{{ post.scripture }}</p>
+			<p class="author">{{ post.author }}</p>
+			{{ post.excerpt | strip_newlines | truncate: 140}}
+			<p class="read-on">Read more</p>
+	</a> <!-- todays-reading -->
 	{% endfor %}
-	</a>
+
 	<div class="contents">
 		<p class="label">Contents</p>
+		<ul>
+			<li>
+				<a href="#week1">
+					<p class="week-link">
+						<span>Week 1 (11/29 — 12/5)</span> Do Not Be Afraid to <b>Hold Hope</b>
+					</p>
+				</a>
+			</li>
+			<li>
+				<p class="week-link"><span>Week 2 (12/6 — 12/12)</span> Do Not Be Afraid to <b>Bring Peace</b></p>
+			</li>
+			<li>
+				<p class="week-link"><span>Week 3 (12/13 — 12/19)</span> Do Not Be Afraid to <b>Practice Joy</b></p>
+			</li>
+			<li>
+				<p class="week-link"><span>Week 4 (12/20 — 12/23)</span> Do Not Be Afraid to <b>Choose Love</b></p>
+			</li>
+			<li>
+				<p class="week-link"><span>Christmas Eve (12/24)</span> Do Not Be Afraid to <b>Shine Light</b></p>
+			</li>
+		</ul>
+		<p class="check-back">Readings are added each day (except Sunday), so be sure to check back!</p>
+	</div> <!-- .contents -->
+</div> <!-- .intro -->
+
+<a href="/about" class="about"> In a year of disruption and heartache, we hope this devotional brings peace and comfort. <span>Read Pastor Curt’s introduction</span></a>
+
+<section class="week-readings" id="week1">
+	<div class="week-title">
+		<p class="label">Week 1 (11/29—12/5)</p>
+		<h2>Do Not Be Afraid to <span>Hold Hope</span></h2>
 	</div>
-</div>
-
-<a href="/about" class="about">
-	<p>In a year of disruption and heartache, we hope this devotional brings peace and comfort. <span>Read Pastor Curt’s introduction</span></p>
-</a>
-
-<section class="week-readings">
-	<p class="label">Week 1 (11/29—12/5)</p>
-	<h2>Do Not Be Afraid to <span>Hold Hope</span></h2>
 	<figure class="week-image">
-		<img src="" alt="">
+		<img src="/src/img/week-1-image-test.jpg" alt="">
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
 			<p class="label">Memory Passage</p>
-			<p> {{ site.week_1_passage}}</p>
+			<div class="passage">
+				<p> {{ site.week_1_passage}}</p>
+				<p class="verse">{{ site.week_1_passage_verse }}</p>
+			</div>
 		</div>
 		<div class="weekly-practice">
 			<p class="label">Weekly Practice</p>
 			<p> {{ site.week_1_practice}}</p>
 		</div>
 	</div>
-	<div class="week-readings">
+	<div class="readings">
 		<p class="label">Week 1 Readings</p>
 		<div class="readings-container">
 		{% for post in site.posts reversed %}
 			{% if post.week == 1 %}
-			<a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a>
+			<a href="{{ post.url }}" class="reading">
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="scripture">{{ post.scripture }}</p>
+				<p class="author">{{ post.author }}</p>
+			</a>
 			{% endif %}
 		{% endfor %}
 		</div>
 	</div>
-	
 </section>
 
-<section class="week-readings">
-	<p class="label">Week 2 (12/6—12/12)</p>
-	<h2>Do Not Be Afraid to <span>Bring Peace</span></h2>
+<section class="week-readings" id="week2">
+	<div class="week-title">
+		<p class="label">Week 2 (12/6—12/12)</p>
+		<h2>Do Not Be Afraid to <span>Bring Peace</span></h2>
+	</div>
 	<figure class="week-image">
-		<img src="" alt="">
+		<img src="/src/img/week-1-image-test.jpg" alt="">
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
 			<p class="label">Memory Passage</p>
-			<p> {{ site.week_2_passage}}</p>
+			<div class="passage">
+				<p> {scripture{ site.week_2_passage}}</p>
+				<p class="author">{{ site.week_2_passage_verse }}</p>
+			</div>
 		</div>
 		<div class="weekly-practice">
 			<p class="label">Weekly Practice</p>
 			<p> {{ site.week_2_practice}}</p>
 		</div>
 	</div>
-	<div class="week-readings">
+	<div class="readings">
 		<p class="label">Week 2 Readings</p>
 		<div class="readings-container">
 		{% for post in site.posts reversed %}
 			{% if post.week == 2 %}
-			<a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a>
+			<a href="{{ post.url }}" class="reading">
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="scripture">{{ post.scripture }}</p>
+				<p class="author">{{ post.author }}</p>
+			</a>
 			{% endif %}
 		{% endfor %}
 		</div>
@@ -80,28 +118,37 @@ layout: default
 	
 </section>
 
-<section class="week-readings">
-	<p class="label">Week 3 (12/13—12/19)</p>
-	<h2>Do Not Be Afraid to <span>Practice Joy</span></h2>
+<section class="week-readings" id="week3">
+	<div class="week-title">
+		<p class="label">Week 3 (12/13—12/19)</p>
+		<h2>Do Not Be Afraid to <span>Practice Joy</span></h2>
+	</div>
 	<figure class="week-image">
-		<img src="" alt="">
+		<img src="/src/img/week-1-image-test.jpg" alt="">
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
 			<p class="label">Memory Passage</p>
-			<p> {{ site.week_3_passage}}</p>
+			<div class="passage">
+				<p> {{ site.week_3_passage}}</p>
+				<p class="author">{{ site.week_3_passage_verse }}</p>
+			</div>
 		</div>
 		<div class="weekly-practice">
 			<p class="label">Weekly Practice</p>
 			<p> {{ site.week_3_practice}}</p>
 		</div>
 	</div>
-	<div class="week-readings">
+	<div class="readings">
 		<p class="label">Week 3 Readings</p>
 		<div class="readings-container">
 		{% for post in site.posts reversed %}
 			{% if post.week == 3 %}
-			<a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a>
+			<a href="{{ post.url }}" class="reading">
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="scripture">{{ post.scripture }}</p>
+				<p class="author">{{ post.author }}</p>
+			</a>
 			{% endif %}
 		{% endfor %}
 		</div>
@@ -109,28 +156,37 @@ layout: default
 
 </section>
 
-<section class="week-readings">
-	<p class="label">Week 4 (11/20—12/23)</p>
-	<h2>Do Not Be Afraid to <span>Choose Love</span></h2>
+<section class="week-readings" id="week4">
+	<div class="week-title">
+		<p class="label">Week 4 (11/20—12/23)</p>
+		<h2>Do Not Be Afraid to <span>Choose Love</span></h2>
+	</div>
 	<figure class="week-image">
-		<img src="" alt="">
+		<img src="/src/img/week-1-image-test.jpg" alt="">
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
 			<p class="label">Memory Passage</p>
-			<p> {{ site.week_4_passage}}</p>
+			<div class="passage">
+				<p> {{ site.week_4_passage}}</p>
+				<p class="author">{{ site.week_4_passage_verse }}</p>
+			</div>
 		</div>
 		<div class="weekly-practice">
 			<p class="label">Weekly Practice</p>
 			<p> {{ site.week_4_practice}}</p>
 		</div>
 	</div>
-	<div class="week-readings">
+	<div class="readings">
 		<p class="label">Week 4 Readings</p>
 		<div class="readings-container">
 		{% for post in site.posts reversed %}
 			{% if post.week == 4 %}
-			<a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a>
+			<a href="{{ post.url }}" class="reading">
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="scripture">{{ post.scripture }}</p>
+				<p class="author">{{ post.author }}</p>
+			</a>
 			{% endif %}
 		{% endfor %}
 		</div>
@@ -138,28 +194,24 @@ layout: default
 
 </section>
 
-<section class="week-readings">
-	<p class="label">Week 5 (Christmas!)</p>
-	<h2>Do Not Be Afraid to <span>Shine Light</span></h2>
-	<figure class="week-image">
-		<img src="" alt="">
-	</figure>
-	<div class="week-context">
-		<div class="memory-passage">
-			<p class="label">Memory Passage</p>
-			<p> {{ site.week_5_passage}}</p>
-		</div>
-		<div class="weekly-practice">
-			<p class="label">Weekly Practice</p>
-			<p> {{ site.week_5_practice}}</p>
-		</div>
+<section class="week-readings" id="week5">
+	<div class="week-title">
+		<p class="label">Week 5 (Christmas!)</p>
+		<h2>Do Not Be Afraid to <span>Shine Light</span></h2>
 	</div>
-	<div class="week-readings">
+	<figure class="week-image">
+		<img src="/src/img/week-1-image-test.jpg" alt="">
+	</figure>
+	<div class="readings">
 		<p class="label">Week 5 Reading</p>
 		<div class="readings-container">
 		{% for post in site.posts %}
 			{% if post.week == 5 %}
-			<a href="{{ post.url }}"> {{ post.date | date: "%A %b %-d, %Y"}}</a>
+			<a href="{{ post.url }}" class="reading">
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="scripture">{{ post.scripture }}</p>
+				<p class="author">{{ post.author }}</p>
+			</a>
 			{% endif %}
 		{% endfor %}
 		</div>

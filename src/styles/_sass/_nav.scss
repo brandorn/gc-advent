@@ -1,25 +1,39 @@
 /* === Primary Nav === */
 
 nav	{
-	margin: 0 auto;
+	margin: 0 auto 4rem auto;
 	width: fit-content;
+
+	&:hover {
+		&:before {
+			transform: rotate(-6deg);
+			
+			@media all and (max-width: $break-medium) {
+				transform: rotate(224deg);	
+			}
+		}
+
+	 	&:after {
+	 		transform: rotate(6deg);
+	 		
+	 		@media all and (max-width: $break-medium) {
+				transform: rotate(154deg);	
+			}
+	 	}
+	} // :hover
 
 	&:before {
 		content: url("/src/img/holly-left.svg");
 		display: inline-block;
 		margin-left: -120px;
 		position: absolute;
+		transition: all 240ms ease-in-out;
 		vertical-align: top;
 		width: 120px;
 		z-index: -1;
 
 		@media all and (max-width: $break-medium) {
-			margin: -4px 0 0 -50px;
-			transform: rotate(240deg);	
-		}
-
-		@media all and (max-width: $break-small) {
-			margin: -10px 0 0 -50px;
+			margin: -10px 0 0 -60px;
 			transform: rotate(232deg);	
 		}
 	}
@@ -29,6 +43,7 @@ nav	{
 		display: inline-block;
 		margin: 20px 0 0 12px;
 		position: absolute;
+		transition: all 240ms ease-in-out;
 		vertical-align: top;
 		width: 120px;
 		z-index: -1;
@@ -42,10 +57,16 @@ nav	{
 	a { 
 	 	background: $white-01;
 	 	border: double $brown-04;
+	 	border-radius: 8px;
 	 	display: inline-block;
 	 	padding: 0.5rem 1rem;
 	 	text-decoration: none;
+	 	transition: all 240ms;
 	 	width: fit-content;
+
+	 	&:hover { transform: scale(1.04);	}
+
+ 		&:active { transform: scale(1.02); } 
 	}
 
  .nav-content {

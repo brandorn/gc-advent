@@ -2,7 +2,8 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-size: 16px;
-  //text-rendering: optimizeLegibility;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 
   @media all and (min-width: $break-large) { font-size: 110%; }
   @media all and (max-width: $break-small) { font-size: 104%; }
@@ -43,4 +44,12 @@ p {
 .label {
   @include sans-extra-small;
   color: $brown-02;
+  font-weight: bold;
+}
+
+figure {
+  margin: 2rem auto;
+  width: auto;
+
+  img { width: 100%; }
 }

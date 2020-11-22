@@ -1,0 +1,339 @@
+/* === Landing === */
+
+.intro {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem auto 0 auto;
+
+	@media all and (max-width: $break-medium) { max-width: 720px; }
+
+	@media all and (max-width: $break-small) { display: block; }
+
+	.todays-reading {
+		@include shadow-default;
+
+		background-color: $white-01;
+		border-radius: 12px;
+		display: block;
+		height: fit-content;
+		padding: 0.5rem 1.5rem;
+		position: relative;
+		text-decoration: none;
+		width: 48%;
+
+		@media all and (max-width: $break-medium) { width: 54%;}
+
+		@media all and (max-width: $break-small) { width: auto; }
+
+		&:hover { @include shadow-hover; }
+
+		& p:nth-child(4) { color: $black-02; }
+
+		.label {
+			color: $brown-03;
+			font-weight: bold;
+
+			span { color: $brown-02; }
+		}
+
+		.title {
+			@include serif-extra-large;
+
+			margin: 3rem 0 0 0;
+		}
+
+		.author {
+			@include sans-small;
+
+			color: $brown-02;
+			margin: 0 0 1rem 0;
+		}
+
+		.read-on {
+			@include sans-small-bold;
+
+			color: $blue-02;
+			margin: 3rem 0 1rem 0;
+
+			&:after {
+				content: url("/src/img/arrow-right.svg");
+				display: inline-block;
+				height: 10px;
+				margin: 4px 0 0 6px; 
+				width: 10px;
+			}
+		}
+	} // .todays-reading
+
+	.contents {
+
+		@media all and (max-width: $break-medium) {
+			text-align: center;
+			width: 38%;
+		}
+
+		@media all and (max-width: $break-small) { 
+			margin-top: 3rem;
+			text-align: inherit;
+			width: auto;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		li { 
+			list-style: none;
+			border-bottom: 1px solid $brown-05;
+
+			.week-link {
+				color: $brown-04;
+				margin: 0.5rem 0 0.5rem -0.5rem;
+				padding: 0.5rem 1rem;
+			}
+
+			a {
+				text-decoration: none;
+
+				p.week-link {
+					border-radius: 8px;
+					color: $blue-02;
+					margin: 0 0 0.5rem -0.5rem;
+					padding: 0.5rem 1rem;
+
+					&:after {
+						content: url("/src/img/arrow-down.svg");
+						display: inline-block;
+						margin: 2px 0 0 8px;
+						opacity: 0;
+						position: absolute;
+						transition: all 150ms;
+						width: 10px;
+					}
+					
+					span {
+						color: $blue-03;
+					}
+				}
+
+				&:hover {
+					p { background: $blue-05; }
+
+					p:after {
+						opacity: 1;
+						transition: all 150ms;
+					}
+				}
+			} // a
+		} // li
+
+		.week-link {
+			@include sans-small;
+
+			span { 
+				display: inline-block;
+				width: 180px;
+
+				@media all and (max-width: $break-medium) {
+					display: block;
+					width: auto;
+				}
+
+				@media all and (max-width: $break-small) { display: inline-block; }
+			}
+		} // .week-link
+
+	} // .contents
+
+	.check-back {
+		@include sans-extra-small;
+
+		color: $brown-02;
+	}
+
+} // .intro
+
+
+.about {
+	@include sans-medium;
+
+	border-bottom: 1px solid $brown-05;
+	border-top: 1px solid $brown-05;
+	color: $brown-02;
+	display: block;
+	margin: 3rem 0;
+	padding: 1.5rem 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 150ms;
+
+	&:hover {
+		background-color: $brown-05;
+		transition: all 150ms;
+	}
+
+	span {
+		@include sans-medium-bold;
+
+		color: $blue-02;
+
+		@media all and (max-width: $break-medium ) { 
+			display: block;
+			margin-top: 0.5rem;
+		}
+
+		&:after {
+			content: url("/src/img/arrow-right.svg");
+			display: inline-block;
+			height: 10px;
+			margin-left: 6px;
+			position: absolute;
+			width: 10px;
+		}
+	}
+} // .about
+
+.week-readings {
+	border-bottom: 1px solid $brown-04;
+	padding: 3rem 0 2rem 0;
+	margin-bottom: 2rem;
+
+	.week-title {
+		margin-bottom: 4rem;
+		text-align: center;
+
+		.label { color: $brown-02; }
+
+		h2 {
+			font-family: $serif;
+			font-size: 2.4rem;
+			font-weight: normal;
+
+			span { font-weight: bold; }
+		}
+	} // .week-title
+
+	img {
+		@include shadow-default;
+		border: 10px solid $white-01;
+	}
+
+	.week-context {
+		display: flex;
+		justify-content: space-between;
+		margin: 4rem 0;
+
+		@media all and (max-width: $break-small) {
+			display: block;
+			margin: 4rem auto 0 auto;
+			max-width: 28rem;
+		}
+
+		.memory-passage {
+			width: 46%;
+
+			@media all and (max-width: $break-small) {
+				margin: 3rem auto;
+				width: auto;
+			}
+
+			.passage {
+				border: double $brown-04;
+				margin-top: 1rem;
+				padding: 2rem 2rem 1rem 2rem;
+
+				p:not(.verse) {
+					@include serif-extra-large;
+					margin-top: 0;
+				}
+
+				.verse {
+					@include sans-extra-small;
+					color: $brown-02;
+				}
+			}
+		} // .memory-passage
+
+		.weekly-practice {
+			width: 48%;
+
+			@media all and (max-width: $break-small) {
+				margin: 2rem auto;
+				width: auto;
+			}
+
+			.label {
+				margin-bottom: 2rem;
+
+				@media all and (max-width: $break-small) { margin-bottom: 1rem; }
+			}
+
+			p:not(.label) {
+				@include sans-medium;
+
+				font-style: italic;
+			}
+		} // .week-practice
+	} // .week-context
+
+	.readings {
+		margin-top: 3rem;
+
+		.label {
+			margin-bottom: 1.5rem;
+
+			@media all and (max-width: $break-medium) { text-align: center; }
+		}
+
+		.readings-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 0.5rem;
+		}
+
+		.reading {
+			@include shadow-default;
+
+			background: $white-01;
+			border-radius: 2px;
+			display: block;
+			flex-basis: 23%;
+			margin-bottom: 1.5rem;
+			padding: 1rem 1rem 0 1rem;
+			text-decoration: none;
+
+			@media all and (max-width: $break-medium) { flex-basis: 31%; }
+
+			@media all and (max-width: 640px) { flex-basis: 48%; }
+
+			&:hover { @include shadow-hover; }
+
+			.label { margin: 0; }
+
+			.scripture { 
+				@include serif-large;
+				margin: 0.5rem 0;
+			}
+		
+			.author {
+				@include sans-extra-small;
+				color: $brown-03;
+			}
+		} // .reading
+
+
+	} // .readings
+
+} // .week-readings
+
+
+/* === Reading === */
+
+
+
+
+
+
+/* === About === */

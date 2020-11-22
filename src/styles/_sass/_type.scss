@@ -15,14 +15,14 @@
 }
 
 @font-face {
-  src: url(/src/fonts/Inter-Bold.otf);
+  src: url(/src/fonts/Inter-Medium.otf);
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  src: url(/src/fonts/Inter-BoldItalic.otf);
+  src: url(/src/fonts/Inter-MediumItalic.otf);
   font-family: 'Inter';
   font-style: italic;
   font-weight: bold;
@@ -70,9 +70,18 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin sans-extra-small {
   font-family: $sans;
-  font-size: 0.8rem;
+  font-size: 0.76rem;
   font-style: normal;
   font-weight: normal;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin sans-extra-small-bold {
+  font-family: $sans;
+  font-size: 0.76rem;
+  font-style: normal;
+  font-weight: bold;
   letter-spacing: -0.009em;
   line-height: 140%;
 }
@@ -106,9 +115,9 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin sans-medium-bold {
   font-family: $sans;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: -0.009em;
   line-height: 140%;  
 }
@@ -175,6 +184,15 @@ $serif: 'Calluna', Georgia, serif;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: bold;
+  letter-spacing: -0.009em;
+  line-height: 140%;
+}
+
+@mixin serif-extra-large {
+  font-family: $serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
   letter-spacing: -0.009em;
   line-height: 140%;
 }
