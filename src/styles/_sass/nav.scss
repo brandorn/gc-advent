@@ -1,0 +1,85 @@
+/* === Primary Nav === */
+
+nav	{
+	margin: 0 auto;
+	width: fit-content;
+
+	&:before {
+		content: url("/src/img/holly-left.svg");
+		display: inline-block;
+		margin-left: -120px;
+		position: absolute;
+		vertical-align: top;
+		width: 120px;
+		z-index: -1;
+
+		@media all and (max-width: $break-medium) {
+			margin: -4px 0 0 -50px;
+			transform: rotate(240deg);	
+		}
+
+		@media all and (max-width: $break-small) {
+			margin: -10px 0 0 -50px;
+			transform: rotate(232deg);	
+		}
+	}
+
+	&:after {
+		content: url("/src/img/holly-right.svg");
+		display: inline-block;
+		margin: 20px 0 0 12px;
+		position: absolute;
+		vertical-align: top;
+		width: 120px;
+		z-index: -1;
+
+		@media all and (max-width: $break-medium) {
+			margin: 18px 0 0 -64px;
+			transform: rotate(148deg);	
+		}
+	}
+
+	a { 
+	 	background: $white-01;
+	 	border: double $brown-04;
+	 	display: inline-block;
+	 	padding: 0.5rem 1rem;
+	 	text-decoration: none;
+	 	width: fit-content;
+	}
+
+ .nav-content {
+		display: flex;
+
+		img {
+			height: auto;
+			margin: 0.5rem 0;
+			max-width: 9rem;
+
+			@media all and (max-width: $break-medium) { max-width: 9rem; }
+			@media all and (max-width: $break-small) { max-width: 6rem; }
+		} // img
+
+		.divider {
+			background-color: $brown-04;
+			margin: 0 1rem;
+			width: 1px;
+		}
+
+		.label {
+			margin: 0.5rem 0 0.2rem 0;
+		}
+
+		.title {
+			font-size: 1.3rem;
+			margin: 0;
+
+			@media all and (max-width: $break-medium) { font-size: 1.2rem; }
+		}
+
+  } // .nav-content
+} // nav
+
+
+
+/* === Footer === */

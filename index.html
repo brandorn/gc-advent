@@ -2,17 +2,25 @@
 layout: default
 ---
 
-<h1>GC Advent Calendar mic check mic check</h1>
 
-{% for post in site.posts limit:1 %} 
+<div class="intro">
+	<a href="{{ post.url }}" class="todays-reading">
+	{% for post in site.posts limit:1 %} 
+		<p class="label">Today's Reading · {{ post.date | date: '%A %b %-d' }}</p>
+		<p class="title">{{ post.scripture }}</p>
+		<p class="author">{{ post.author }}</p>
+		<p class="excerpt">{{ post.excerpt | strip_newlines | truncate: 200}}</p>
+		<p class="read-on">Read on </p>
+	{% endfor %}
+	</a>
+	<div class="contents">
+		<p class="label">Contents</p>
+	</div>
+</div>
 
-	{% capture post_day %}{{ post.date | date: '%s' }}{% endcapture %}
-
-		<h2>Today's Reading</h2>
-		<p><a href="{{ post.url }}"> {{ post.date | date: '%A %b %-d, %Y' }}</a></p>
-
-{% endfor %}
-
+<a href="/about" class="about">
+	<p>In a year of disruption and heartache, we hope this devotional brings peace and comfort. <span>Read Pastor Curt’s introduction</span></p>
+</a>
 
 <section class="week-readings">
 	<p class="label">Week 1 (11/29—12/5)</p>
