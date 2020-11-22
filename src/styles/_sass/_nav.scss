@@ -32,6 +32,12 @@ nav	{
 		width: 120px;
 		z-index: -1;
 
+		@media not all and (min-resolution:.001dpcm) { 
+			@supports (-webkit-appearance:none) {
+    		margin: -10px 0 0 -60px;
+				transform: rotate(230deg);
+		}}
+
 		@media all and (max-width: $break-medium) {
 			margin: -10px 0 0 -60px;
 			transform: rotate(232deg);	
@@ -48,11 +54,18 @@ nav	{
 		width: 120px;
 		z-index: -1;
 
+		@media not all and (min-resolution:.001dpcm) { 
+			@supports (-webkit-appearance:none) {
+    		margin: -65px 0 0 294px;
+				transform: rotate(144deg);
+		}}
+
 		@media all and (max-width: $break-medium) {
 			margin: 18px 0 0 -64px;
 			transform: rotate(148deg);	
 		}
-	}
+		
+	} // :after
 
 	a { 
 	 	background: $white-01;
@@ -73,7 +86,7 @@ nav	{
 		display: flex;
 
 		img {
-			height: auto;
+			max-height: 40px;
 			margin: 0.5rem 0;
 			max-width: 9rem;
 
