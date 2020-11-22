@@ -74,7 +74,6 @@
 
 		@media all and (max-width: $break-small) { 
 			margin-top: 3rem;
-			text-align: inherit;
 			width: auto;
 		}
 
@@ -95,6 +94,8 @@
 
 			a {
 				text-decoration: none;
+
+				p { transition: all 200ms; }
 
 				p.week-link {
 					border-radius: 8px;
@@ -118,7 +119,10 @@
 				}
 
 				&:hover {
-					p { background: $blue-05; }
+					p {
+						background: $blue-05;
+						transition: all 200ms;
+					}
 
 					p:after {
 						opacity: 1;
@@ -139,8 +143,6 @@
 					display: block;
 					width: auto;
 				}
-
-				@media all and (max-width: $break-small) { display: inline-block; }
 			}
 		} // .week-link
 
@@ -209,6 +211,7 @@
 			font-family: $serif;
 			font-size: 2.4rem;
 			font-weight: normal;
+			line-height: 110%;
 
 			span { font-weight: bold; }
 		}
@@ -256,7 +259,8 @@
 		} // .memory-passage
 
 		.weekly-practice {
-			width: 48%;
+			margin-left: 2rem;
+			max-width: 24rem;
 
 			@media all and (max-width: $break-small) {
 				margin: 2rem auto;
