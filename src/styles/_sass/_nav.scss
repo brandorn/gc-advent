@@ -27,7 +27,7 @@ nav	{
 		display: inline-block;
 		margin-left: -120px;
 		position: absolute;
-		transition: all 240ms ease-in-out;
+		transition: all 200ms ease-in-out;
 		vertical-align: top;
 		width: 120px;
 		z-index: -1;
@@ -43,7 +43,7 @@ nav	{
 		display: inline-block;
 		margin: 20px 0 0 12px;
 		position: absolute;
-		transition: all 240ms ease-in-out;
+		transition: all 200ms ease-in-out;
 		vertical-align: top;
 		width: 120px;
 		z-index: -1;
@@ -61,7 +61,7 @@ nav	{
 	 	display: inline-block;
 	 	padding: 0.5rem 1rem;
 	 	text-decoration: none;
-	 	transition: all 240ms;
+	 	transition: all 200ms;
 	 	width: fit-content;
 
 	 	&:hover { transform: scale(1.04);	}
