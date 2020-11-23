@@ -1,7 +1,9 @@
 /* === Primary Nav === */
 
 nav	{
+	display: flex;
 	margin: 0 auto 4rem auto;
+	position: relative;
 	width: fit-content;
 
 	&:hover {
@@ -25,15 +27,18 @@ nav	{
 	.holly-before {
 		display: inline-block;
 		height: auto;
-		margin: 0;
+		left: -120px;
+		// margin: 2px 12px 0 0;
+		position: absolute;
 		transition: all 200ms ease-in-out;
 		vertical-align: top;
 		width: 100px;
 		z-index: -1;
 
 		@media all and (max-width: $break-medium) {
-			margin: 0 0 0 -50px;
-			position: absolute;
+			// margin: 2px 0 0 -40px;
+			// position: absolute;
+			left: -50px;
 			transform: rotate(232deg);	
 		}
 	}
@@ -41,16 +46,21 @@ nav	{
 	.holly-after {
 		display: inline-block;
 		height: auto;
-		margin: 20px 0 0 10px;
+		// margin: 6px 0 0 16px;
+		position: absolute;
+		right: -110px;
+		top: 12px;
 		transition: all 200ms ease-in-out;
 		vertical-align: top;
 		width: 100px;
 		z-index: -1;
 
 		@media all and (max-width: $break-medium) {
-			margin: 20px 0 0 -40px;
-			position: absolute;
-			transform: rotate(148deg);	
+			// margin: 20px 0 0 280px;
+			// position: absolute;
+			right: -46px;
+			top: 12px;
+			transform: rotate(130deg);	
 		}
 		
 	} // :after
