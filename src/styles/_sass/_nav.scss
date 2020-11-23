@@ -5,7 +5,7 @@ nav	{
 	width: fit-content;
 
 	&:hover {
-		&:before {
+		.holly-before {
 			transform: rotate(-6deg);
 			
 			@media all and (max-width: $break-medium) {
@@ -13,7 +13,7 @@ nav	{
 			}
 		}
 
-	 	&:after {
+	 	.holly-after {
 	 		transform: rotate(6deg);
 	 		
 	 		@media all and (max-width: $break-medium) {
@@ -22,46 +22,34 @@ nav	{
 	 	}
 	} // :hover
 
-	&:before {
-		content: url("/src/img/holly-left.svg");
+	.holly-before {
 		display: inline-block;
-		margin-left: -120px;
-		position: absolute;
+		height: auto;
+		margin: 0;
 		transition: all 200ms ease-in-out;
 		vertical-align: top;
-		width: 120px;
+		width: 100px;
 		z-index: -1;
 
-		@media not all and (min-resolution:.001dpcm) { 
-			@supports (-webkit-appearance:none) {
-    		margin: -10px 0 0 -60px;
-				transform: rotate(230deg);
-		}}
-
 		@media all and (max-width: $break-medium) {
-			margin: -10px 0 0 -60px;
+			margin: 0 0 0 -50px;
+			position: absolute;
 			transform: rotate(232deg);	
 		}
 	}
 
-	&:after {
-		content: url("/src/img/holly-right.svg");
+	.holly-after {
 		display: inline-block;
-		margin: 20px 0 0 12px;
-		position: absolute;
+		height: auto;
+		margin: 20px 0 0 10px;
 		transition: all 200ms ease-in-out;
 		vertical-align: top;
-		width: 120px;
+		width: 100px;
 		z-index: -1;
 
-		@media not all and (min-resolution:.001dpcm) { 
-			@supports (-webkit-appearance:none) {
-    		margin: -65px 0 0 294px;
-				transform: rotate(144deg);
-		}}
-
 		@media all and (max-width: $break-medium) {
-			margin: 18px 0 0 -64px;
+			margin: 20px 0 0 -40px;
+			position: absolute;
 			transform: rotate(148deg);	
 		}
 		

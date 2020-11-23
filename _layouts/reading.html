@@ -2,41 +2,65 @@
 layout: default
 ---
 
-<header>
-  <h1>{{ page.title }}</h1>
-  <p> {{ page.scripture_passage }}</p>
+<header class="reading-header">
+	<p class="label"> Week {{ page.week }}: Do Not Be Afraid to
+		<span>
+				{% if page.week == 1%}
+					{{ site.week_1_theme }}
+				{% elsif page.week == 2%}
+					{{ site.week_2_theme }}
+				{% elsif page.week == 3%}
+					{{ site.week_3_theme }}
+				{% elsif page.week == 4%}
+					{{ site.week_4_theme }}
+				{% endif %}
+		</span>
+	</p>
+	<h1 class="serif">{{ page.title }}</h1>
+	{% if page.author %}
+  <p class="author">by {{ page.author }}</p>
+  {% endif %}
+  <div class="scripture">
+  	<p class="passage"> {{ page.scripture_passage }} </p>
+  	<p class="verse"> — {{ page.scripture }} </p>
+  </div>
+  
 </header>
 
-<section>
+<section class="reading-content">
   {{ content }}
 </section>
 
-<div class="week-context">
+<div class="reading week-context">
 	<div class="memory-passage">
 		{% unless page.week == 5 %}
 		<p class="label">Memory Passage</p>
 			{% if page.week == 1%}
 				<p>{{ site.week_1_passage }}</p>
+				<p>{{ site.week_1_passage_verse }}</p>
 			{% elsif page.week == 2%}
 				<p>{{ site.week_2_passage }}</p>
+				<p>{{ site.week_2_passage_verse }}</p>
 			{% elsif page.week == 3%}
 				<p>{{ site.week_3_passage }}</p>
+				<p>{{ site.week_3_passage_verse }}</p>
 			{% elsif page.week == 4%}
 				<p>{{ site.week_4_passage }}</p>
+				<p>{{ site.week_4_passage_verse }}</p>
 			{% endif %}
 		{% endunless %}
 	</div>
 	<div class="weekly-practice">
 		{% unless page.week == 5 %}
-		<p class="label">Weekly Practice</p>
+			<p class="label">Weekly Practice</p>
 			{% if page.week == 1%}
-				<p>{{ site.week_1_practice }}</p>
+			<p>{{ site.week_1_practice }}</p>
 			{% elsif page.week == 2%}
-				<p>{{ site.week_2_practice }}</p>
+			<p>{{ site.week_2_practice }}</p>
 			{% elsif page.week == 3%}
-				<p>{{ site.week_3_practice }}</p>
+			<p>{{ site.week_3_practice }}</p>
 			{% elsif page.week == 4%}
-				<p>{{ site.week_4_practice }}</p>
+			<p>{{ site.week_4_practice }}</p>
 			{% endif %}
 		{% endunless %}
 	</div>
@@ -44,9 +68,15 @@ layout: default
 
 <div class="previous-next-reading">
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+    <a class="prev" href="{{page.previous.url}}">	
+    	<span class="label">Previous Reading</span>
+    	{{page.previous.title}}
+    </a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+    <a class="next" href="{{page.next.url}}">	
+    	<span class="label">Next Reading</span>
+    	{{page.next.title}}
+    </a>
   {% endif %}
 </div>

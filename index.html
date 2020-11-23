@@ -70,7 +70,7 @@ layout: default
 		{% for post in site.posts reversed %}
 			{% if post.week == 1 %}
 			<a href="{{ post.url }}" class="reading">
-				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b %-d"}}</p>
 				<p class="scripture">{{ post.scripture }}</p>
 				<p class="author">{{ post.author }}</p>
 			</a>
@@ -93,7 +93,7 @@ layout: default
 			<p class="label">Memory Passage</p>
 			<div class="passage">
 				<p> {{ site.week_2_passage}}</p>
-				<p class="author">{{ site.week_2_passage_verse }}</p>
+				<p class="verse">{{ site.week_2_passage_verse }}</p>
 			</div>
 		</div>
 		<div class="weekly-practice">
@@ -107,7 +107,7 @@ layout: default
 		{% for post in site.posts reversed %}
 			{% if post.week == 2 %}
 			<a href="{{ post.url }}" class="reading">
-				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b %-d"}}</p>
 				<p class="scripture">{{ post.scripture }}</p>
 				<p class="author">{{ post.author }}</p>
 			</a>
@@ -131,7 +131,7 @@ layout: default
 			<p class="label">Memory Passage</p>
 			<div class="passage">
 				<p>{{ site.week_3_passage}}</p>
-				<p class="author">{{ site.week_3_passage_verse }}</p>
+				<p class="verse">{{ site.week_3_passage_verse }}</p>
 			</div>
 		</div>
 		<div class="weekly-practice">
@@ -145,7 +145,7 @@ layout: default
 		{% for post in site.posts reversed %}
 			{% if post.week == 3 %}
 			<a href="{{ post.url }}" class="reading">
-				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b %-d"}}</p>
 				<p class="scripture">{{ post.scripture }}</p>
 				<p class="author">{{ post.author }}</p>
 			</a>
@@ -169,7 +169,7 @@ layout: default
 			<p class="label">Memory Passage</p>
 			<div class="passage">
 				<p> {{ site.week_4_passage}}</p>
-				<p class="author">{{ site.week_4_passage_verse }}</p>
+				<p class="verse">{{ site.week_4_passage_verse }}</p>
 			</div>
 		</div>
 		<div class="weekly-practice">
@@ -183,7 +183,7 @@ layout: default
 		{% for post in site.posts reversed %}
 			{% if post.week == 4 %}
 			<a href="{{ post.url }}" class="reading">
-				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b %-d"}}</p>
 				<p class="scripture">{{ post.scripture }}</p>
 				<p class="author">{{ post.author }}</p>
 			</a>
@@ -208,7 +208,7 @@ layout: default
 		{% for post in site.posts %}
 			{% if post.week == 5 %}
 			<a href="{{ post.url }}" class="reading">
-				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b" "%-d"}}</p>
+				<p class="label">{{ post.date | date: "%A"}}, {{ post.date | date: "%b %-d"}}</p>
 				<p class="scripture">{{ post.scripture }}</p>
 				<p class="author">{{ post.author }}</p>
 			</a>
