@@ -55,9 +55,38 @@ p {
   font-weight: bold;
 }
 
+blockquote {
+  margin: 2rem;
+
+  p { 
+    font-family: $serif;
+    font-style: italic;
+    line-height: 170%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .source {
+    @include sans-small;
+    color: $brown-02;
+    margin-top: 1rem;
+  }
+}
+
+
+
 figure {
   margin: 2rem auto;
   width: auto;
 
   img { width: 100%; }
+}
+
+hr {
+  background-color: $brown-04;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 5rem auto;
+  width: 20rem;
 }

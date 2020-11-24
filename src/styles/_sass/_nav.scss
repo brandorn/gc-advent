@@ -27,8 +27,7 @@ nav	{
 	.holly-before {
 		display: inline-block;
 		height: auto;
-		left: -120px;
-		// margin: 2px 12px 0 0;
+		left: -112px;
 		position: absolute;
 		transition: all 200ms ease-in-out;
 		vertical-align: top;
@@ -36,8 +35,6 @@ nav	{
 		z-index: -1;
 
 		@media all and (max-width: $break-medium) {
-			// margin: 2px 0 0 -40px;
-			// position: absolute;
 			left: -50px;
 			transform: rotate(232deg);	
 		}
@@ -46,7 +43,6 @@ nav	{
 	.holly-after {
 		display: inline-block;
 		height: auto;
-		// margin: 6px 0 0 16px;
 		position: absolute;
 		right: -110px;
 		top: 12px;
@@ -56,8 +52,6 @@ nav	{
 		z-index: -1;
 
 		@media all and (max-width: $break-medium) {
-			// margin: 20px 0 0 280px;
-			// position: absolute;
 			right: -46px;
 			top: 12px;
 			transform: rotate(130deg);	
@@ -115,3 +109,42 @@ nav	{
 
 
 /* === Footer === */
+
+footer {
+	margin: 4rem auto;
+	text-align: center;
+
+	& > a {
+		display: block;
+		margin: 2rem auto;
+		width: fit-content;
+
+		img { 
+			transition: all 150ms;
+			width: 160px; 
+		}
+
+		&:hover img {
+			opacity: 0.6;
+			transition: all 150ms;
+		}
+	}
+
+	p {
+		@include sans-small;
+		color: $brown-02;
+		transition: all 150ms;
+
+		a:link,
+		a:visited { 
+			color: $brown-03;
+			text-decoration: underline;
+			transition: all 150ms;
+		}
+
+		a:hover,
+		a:active { color: $brown-02; }
+	}
+}
+
+

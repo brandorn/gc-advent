@@ -145,7 +145,7 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin serif-small {
   font-family: $serif;
-  font-size: 0.96rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
@@ -154,7 +154,7 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin serif-small-bold {
   font-family: $serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: bold;
   letter-spacing: -0.009em;

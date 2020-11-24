@@ -387,8 +387,6 @@
 .reading-content {
 	margin: 2rem auto;
 	max-width: 540px;
-
-	p { @include serif-medium; }
 }
 
 .reading.week-context {
@@ -490,6 +488,9 @@
 /* === About === */
 
 .about-content {
+	margin: 0 auto;
+	max-width: 540px;
+
 	h1 {
 		border-bottom: 1px solid $brown-04;
 		display: block;
@@ -498,8 +499,34 @@
 		padding-bottom: 3rem;
 	}
 
+	.pastor-photo {
+		margin: 4rem auto;
+		max-width: 320px;
+		text-align: center;
 
-	margin: 0 auto;
-	max-width: 540px;
-}
+		img {
+			border-radius: 8px;
+			width: 100%;
+		}
+
+		.label {
+			@include sans-medium-bold;
+			color: $brown-02;
+
+			span {
+				display: block;
+				font-weight: normal;
+			}
+		}
+	}
+
+	h2 { 
+		font-family: serif;
+		font-weight: normal;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+
+	
+} // .about-content
 

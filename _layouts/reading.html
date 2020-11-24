@@ -3,19 +3,24 @@ layout: default
 ---
 
 <header class="reading-header">
+	{% unless page.week == 5 %}
 	<p class="label"> Week {{ page.week }}: Do Not Be Afraid to
 		<span>
-				{% if page.week == 1%}
+				{% if page.week == 1 %}
 					{{ site.week_1_theme }}
-				{% elsif page.week == 2%}
+				{% elsif page.week == 2 %}
 					{{ site.week_2_theme }}
-				{% elsif page.week == 3%}
+				{% elsif page.week == 3 %}
 					{{ site.week_3_theme }}
-				{% elsif page.week == 4%}
+				{% elsif page.week == 4 %}
 					{{ site.week_4_theme }}
 				{% endif %}
 		</span>
 	</p>
+	{% endunless%}
+	{% if page.week == 5 %}
+	<p class="label"> Christmas Eve </p>
+	{% endif %}
 	<h1 class="serif">{{ page.title }}</h1>
 	{% if page.author %}
   <p class="author">by {{ page.author }}</p>
@@ -31,9 +36,9 @@ layout: default
   {{ content }}
 </section>
 
+{% unless page.week == 5 %}
 <div class="reading week-context">
 	<div class="memory-passage">
-		{% unless page.week == 5 %}
 		<p class="label">Memory Passage</p>
 			{% if page.week == 1%}
 				<p>{{ site.week_1_passage }}</p>
@@ -48,10 +53,8 @@ layout: default
 				<p>{{ site.week_4_passage }}</p>
 				<p>{{ site.week_4_passage_verse }}</p>
 			{% endif %}
-		{% endunless %}
 	</div>
 	<div class="weekly-practice">
-		{% unless page.week == 5 %}
 			<p class="label">Weekly Practice</p>
 			{% if page.week == 1%}
 			<p>{{ site.week_1_practice }}</p>
@@ -62,9 +65,9 @@ layout: default
 			{% elsif page.week == 4%}
 			<p>{{ site.week_4_practice }}</p>
 			{% endif %}
-		{% endunless %}
 	</div>
 </div>
+{% endunless %}
 
 <div class="previous-next-reading">
   {% if page.previous.url %}
