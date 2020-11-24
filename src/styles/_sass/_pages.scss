@@ -309,7 +309,7 @@
 			@include shadow-default;
 
 			background: $white-01;
-			border-radius: 2px;
+			border-radius: 4px;
 			display: block;
 			flex-basis: 23%;
 			margin-bottom: 1.5rem;
@@ -325,6 +325,11 @@
 			}
 
 			@media all and (max-width: 640px) { flex-basis: 48%; }
+
+			@media all and (max-width: $break-tiny) {
+				flex-basis: 100%;
+				margin: 0.5rem 0;
+			}
 
 			&:hover { @include shadow-hover; }
 
