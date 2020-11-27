@@ -32,7 +32,7 @@ I will uphold you with my righteous right hand.</p>
 
 
 <div class="pastor-photo">
-	<img src="/src/img/lowndes.jpg">
+	<img src="/src/img/lowndes.jpg" alt="The Lowndes family in front of a brick wall.">
 	<p class="label">Pastor Curt Lowndes <span>November 2020</span></p>
 </div>
 
@@ -40,12 +40,12 @@ I will uphold you with my righteous right hand.</p>
 
 <h2>Artist Statement</h2>
 
-<p>This is my amazing statement...</p>
+<p>This has been a year of looking. Sequestered at home by the pandemic, our experience of the world has been limited by what we can see around us: through our windows, through our screens, in our rooms. For many, this limitation has been oppressive. We want to get out! To travel and visit with others, to go to our favorite places without concern for our health. I feel these things too, but I have also come to savor this near-sightedness, the things I notice when I'm stuck at home, the habits of mind and sight that I feel taking root. I look at things differently than I did a year ago.</p>
 
-
+<p>For this year's advent devotional, I've made a set of instant photo triptychs: three juxtaposed images of people and places around North Carolina. They mostly focus on the natural world, something that has been a stabilizing presence to me through these difficult months. The trees and plants and animals are blissfully unaware of the virus plaguing our nation and world. They go about their vegetable and animal lives, follow their own rhythms without care for the morrow — something we never seem to be able to do. This poem by Wendell Berry describes the peace that can come when we rest in their peace:</p>
 
 <div class="wendell-poem">
-	<p class="title">The Peace of Wild Thinigs</p>
+	<p class="title">The Peace of Wild Things</p>
 	<p class="author">by Wendell Berry</p>
 	<p class="poem">When despair for the world grows in me <br>
 	and I wake in the night at the least sound <br>
@@ -59,3 +59,11 @@ I will uphold you with my righteous right hand.</p>
 	waiting with their light. For a time <br>
 	I rest in the grace of the world, and am free.</p>
 </div>
+
+<p>One triptych stands out from the others, the images of the Durham County Detention Facility in downtown Durham. Walking past the austere buildings on a sunny afternoon, I found myself reflecting on parallels between or collective experience of the pandemic and the lives of imprisoned people: the pain of isolation we feel, the limitations imposed on our lives, the indeterminacy of return to "normal life." Even if we cannot presently visit the imprisoned in person, we can visit them in our minds, and hearts, and prayers.</p>
+
+<p>Triptychs are a form of early Christian art from the Middle Ages, typically paintings of scenes from Scripture. They would be placed prominently in churches and the homes of wealthy patrons, and used for devotional purposes. They form a tripartite view of things, something worth reflecting on. And for the readings, I wanted to make something that felt <i>tactile</i> at a time when we experience images in increasingly abstract, commodified ways. I also wanted to create something that felt down-to-earth, even throwaway. Vision is available to all of us. We're forever surrounded by scenes of beauty and significance, no matter where we are. We just need a little willingness to look.</p>
+
+<p class="author">— Brandon Dorn</p>
+
+<p>PS — Curt and I want to thank <a href="http://www.katiebillheimer.com/">Katie Bilheimer</a> for her talented work on the illustrated drop caps. Aren't they great?</p>

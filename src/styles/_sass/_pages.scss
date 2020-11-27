@@ -226,10 +226,7 @@
 		}
 	} // .week-title
 
-	img {
-		@include shadow-default;
-		border: 10px solid $white-01;
-	}
+	img { border-radius: 4px; }
 
 	.week-context {
 		display: flex;
@@ -561,13 +558,29 @@
 				font-weight: normal;
 			}
 		}
-	}
+	} // .pastor-photo
 
 	h2 { 
 		font-family: serif;
 		font-weight: normal;
 		margin-bottom: 3rem;
 		text-align: center;
+	}
+
+	.wendell-poem {
+		margin: 3rem;
+
+		p.title {
+			@include serif-large;
+			margin-bottom: 0;
+		}
+
+		p.author { 
+			@include sans-small;
+			color: $brown-02;
+			margin-top: 0.5rem;
+			margin-bottom: 2rem;
+		}
 	}
 
 	
