@@ -69,9 +69,10 @@ nav	{
 	 	transition: all 200ms;
 	 	width: fit-content;
 
-	 	&:hover { transform: scale(1.04);	}
-
- 		&:active { transform: scale(1.03); } 
+	 	&:hover {
+	 		text-decoration: none;
+	 		transform: scale(1.04);
+	 	}
 	}
 
  .nav-content {

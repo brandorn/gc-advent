@@ -70,7 +70,7 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin sans-extra-small {
   font-family: $sans;
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
@@ -79,7 +79,7 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin sans-extra-small-bold {
   font-family: $sans;
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-style: normal;
   font-weight: bold;
   letter-spacing: -0.009em;
@@ -106,20 +106,20 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin sans-medium {
   font-family: $sans;
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
-  line-height: 140%;
+  line-height: 160%;
 }
 
 @mixin sans-medium-bold {
   font-family: $sans;
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   font-style: normal;
   font-weight: bold;
   letter-spacing: -0.009em;
-  line-height: 140%;  
+  line-height: 160%;  
 }
 
 @mixin sans-large {
@@ -145,11 +145,11 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin serif-small {
   font-family: $serif;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
-  line-height: 140%;
+  line-height: 160%;
 }
 
 @mixin serif-small-bold {
@@ -163,11 +163,11 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin serif-medium {
   font-family: $serif;
-  font-size: 1.1rem;
+  font-size: 1.16rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;
-  line-height: 160%;
+  line-height: 170%;
 }
 
 @mixin serif-medium-bold {
@@ -199,7 +199,7 @@ $serif: 'Calluna', Georgia, serif;
 
 @mixin serif-extra-large {
   font-family: $serif;
-  font-size: 1.52rem;
+  font-size: 1.72rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.009em;

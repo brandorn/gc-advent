@@ -2,8 +2,6 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-size: 16px;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
 
   @media all and (min-width: $break-large) { font-size: 110%; }
   @media all and (max-width: $break-small) { font-size: 104%; }
@@ -13,8 +11,8 @@ html {
 
 body {
   background: #FBFAF7;
-  background-image: url("/src/img/bg-pattern.png");
-  background-size: 300px;
+  // background-image: url("/src/img/bg-pattern.png");
+  // background-size: 300px;
   color: $black-01;
   font-family: sans-serif;
   font-size: 1rem;
@@ -22,7 +20,7 @@ body {
   line-height: 140%;
   margin: 1rem auto 8rem auto;
   max-width: 1000px;
-  overflow: scroll;
+  overflow-x: hidden;
   padding: 0 2em;
   transition: all 100ms ease-out;
 
@@ -35,6 +33,7 @@ h1 {
   font-family: $serif;
   font-size: 3.2rem;
   font-weight: normal;
+  line-height: 120%;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -46,6 +45,37 @@ p {
   line-height: 150%;
 }
 
+a:link,
+a:visited {
+  color: $blue-02;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: $blue-03;
+  text-decoration: underline;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li-counter 0;
+
+  li {
+    counter-increment: li-counter;
+    padding: 0 0 0 .5em;
+   
+    &::marker {
+      @include serif-medium;
+
+      content: counter(li-counter) ".";
+      color: $black-01;
+      font-weight: bold;
+    }
+  }
+} // ol
+
+
 .label {
   @include sans-extra-small;
   color: $brown-02;
@@ -53,7 +83,7 @@ p {
 }
 
 blockquote {
-  margin: 2rem;
+  margin: 2rem 3rem 3rem 3rem;
 
   p { 
     font-family: $serif;
@@ -66,10 +96,9 @@ blockquote {
   .source {
     @include sans-small;
     color: $brown-02;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 }
-
 
 
 figure {
@@ -77,6 +106,14 @@ figure {
   width: auto;
 
   img { width: 100%; }
+
+  figcaption {
+    @include sans-extra-small;
+
+    color: $brown-02;
+    margin: 0.5rem auto;
+    max-width: 320px;
+  }
 }
 
 hr {
@@ -86,4 +123,17 @@ hr {
   height: 2px;
   margin: 5rem auto;
   width: 20rem;
+}
+
+table { margin: 3rem 0 2rem 0; }
+td {
+  margin: 2rem 0;
+  padding-right: 1rem;
+  vertical-align: top;
+
+  p {
+    @include serif-small;
+    color: $black-03;
+    margin: 0.5rem 0;
+  }
 }

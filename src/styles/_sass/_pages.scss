@@ -36,6 +36,8 @@
 			span { color: $brown-02; }
 		}
 
+		.excerpt { @include serif-small; }
+
 		.title {
 			@include serif-extra-large;
 
@@ -66,6 +68,7 @@
 	} // .todays-reading
 
 	.contents {
+		width: 46%;
 
 		@media all and (max-width: $break-medium) {
 			text-align: center;
@@ -163,16 +166,16 @@
 	background-color: $white-01;
 	border: 1px solid $brown-04;
 	border-radius: 8px;
-	color: $brown-02;
 	display: block;
 	margin: 4rem 0 2rem 0;
-	padding: 1.5rem 0;
+	padding: 1.5rem;
 	text-align: center;
 	text-decoration: none;
 	transition: all 150ms;
 
 	&:hover {
 		background-color: $blue-05;
+		text-decoration: none;
 
 		span:after {
 			margin-left: 10px;
@@ -392,6 +395,41 @@
 .reading-content {
 	margin: 2rem auto;
 	max-width: 540px;
+
+	& > p:nth-child(1) {
+		span { display: none; }
+
+		.drop-cap {
+			float: left;
+	    height: 124px;
+	    margin: 2px 14px 0 -4px;
+	    width: 124px;
+		}
+	}
+
+	.author { 
+		@include sans-small;
+
+		color: $brown-02;
+	}
+} // .reading-content
+
+.invitation {
+
+	background-color: $white-01;
+	border: 1px solid $brown-04;
+	margin: 3rem auto;
+	padding: 0.5rem 1.5rem;
+
+	p {
+		@include sans-medium;
+
+		color: $brown-02;
+
+	}
+
+
+	a { font-weight: bold; }
 }
 
 .reading.week-context {

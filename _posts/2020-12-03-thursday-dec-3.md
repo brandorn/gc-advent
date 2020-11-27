@@ -6,7 +6,7 @@ scripture: Mark 2:1—5
 scripture_passage: A few days later, when Jesus again entered Capernaum, the people heard that he had come home. They gathered in such large numbers that there was no room left, not even outside the door, and he preached the word to them. Some men came, bringing to him a paralyzed man, carried by four of them. Since they could not get him to Jesus because of the crowd, they made an opening in the roof above Jesus by digging through it and then lowered the mat the man was lying on. When Jesus saw their faith, he said to the paralyzed man, “Son, your sins are forgiven.”
 ---
 
-Hope. When you hear that word what feelings come to you? For me, it’s excitement, fear, anticipation...the list could keep going. In Mark 2:1-5 we see Jesus returning home to Capernaum after his time outside the city healing and teaching people throughout Galilee.
+<p><img class="drop-cap" src="/src/img/drop-cap-h.svg"><span>H</span>ope. When you hear that word what feelings come to you? For me, it’s excitement, fear, anticipation...the list could keep going. In Mark 2:1-5 we see Jesus returning home to Capernaum after his time outside the city healing and teaching people throughout Galilee.</p>
 
 As the story opens, word is spreading throughout the city about Jesus’ return. Expectations are high. The visual of the house overflowing is something that can feel overwhelming but so exciting. The people can’t wait to hear what Jesus has to say.
 

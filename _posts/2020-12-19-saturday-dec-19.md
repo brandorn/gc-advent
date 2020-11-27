@@ -6,7 +6,7 @@ scripture: Psalm 100
 scripture_passage: Shout for joy to the Lord, all the earth. <br> Worship the Lord with gladness&#59; <br> come before him with joyful songs. <br> Know that the Lord is God. <br> It is he who made us, and we are his&#59; <br> we are his people, the sheep of his pasture. <br> <br> Enter his gates with thanksgiving <br> and his courts with praise&#59; <br> give thanks to him and praise his name. <br> For the Lord is good and his love endures forever&#59; <br> his faithfulness continues through all generations.
 ---
 
-Our scripture today is an invitation to worship the One whose birth we celebrate this season.  We are to worship Him with shouts of joy, with gladness, with joyful songs, with thanksgiving and with praise.  We worship because He is God, He made us and we are His, He is good, His love endures forever, and He is faithful – always and forever.
+<p><img class="drop-cap" src="/src/img/drop-cap-o.svg"><span>O</span>ur scripture today is an invitation to worship the One whose birth we celebrate this season.  We are to worship Him with shouts of joy, with gladness, with joyful songs, with thanksgiving and with praise.  We worship because He is God, He made us and we are His, He is good, His love endures forever, and He is faithful – always and forever.</p>
 
 There are so many pre-COVID-19 “normal life” things that I miss.  One of them is watching some of The Gathering children worship together in the right-hand corner of Creekside’s gym.  The children genuinely do not care who is watching.  They sing, twirl, and come before God with gladness and joyful songs.  Oh, if we all could be a bit more child-like.
 
@@ -19,7 +19,7 @@ Let earth receive her King<br>
 Let every heart prepare Him room<br>
 And Heaven and nature sing<br>
 
-— JoAnn
+<p class="author">— JoAnn</p>
  
 <hr>
 
@@ -40,4 +40,4 @@ Thank God. Worship God. <br>
 
 (“The River” lyrics by Joni Mitchell; Psalm 100, The Message)
 
-— Karl
+<p class="author">— Karl</p>
