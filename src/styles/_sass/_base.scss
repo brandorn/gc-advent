@@ -4,7 +4,8 @@ html {
   font-size: 16px;
 
   @media all and (min-width: $break-large) { font-size: 110%; }
-  @media all and (max-width: $break-small) { font-size: 104%; }
+  @media all and (max-width: $break-small) { font-size: 96%; }
+  @media all and (max-width: $break-tiny) { font-size: 92%; }
 }
 
 *, *:before, *:after { box-sizing: inherit; }
@@ -83,7 +84,9 @@ ol {
 }
 
 blockquote {
-  margin: 2rem 3rem 3rem 3rem;
+  margin: 2rem;
+
+  @media all and (max-width: $break-medium) { margin: 2rem 1rem; }
 
   p { 
     font-family: $serif;
@@ -141,7 +144,6 @@ td {
 
 .author {
   @include sans-small;
-  margin-bottom: 3rem;
 
   color: $brown-02;
 }

@@ -60,10 +60,10 @@ I will uphold you with my righteous right hand.</p>
 	I rest in the grace of the world, and am free.</p>
 </div>
 
-<p>One triptych stands out from the others, the images of the Durham County Detention Facility in downtown Durham. Walking past the austere buildings on a sunny afternoon, I found myself reflecting on parallels between or collective experience of the pandemic and the lives of imprisoned people: the pain of isolation we feel, the limitations imposed on our lives, the indeterminacy of return to "normal life." Even if we cannot presently visit the imprisoned in person, we can visit them in our minds, and hearts, and prayers.</p>
+<p>One triptych stands out from the others, the images of the Durham County Detention Facility in downtown Durham. Walking past the austere buildings on a sunny afternoon, I found myself reflecting on parallels between our collective experience of the pandemic and the lives of imprisoned people: the pain of isolation we feel, the limitations imposed on our lives, the indeterminacy of return to "normal life." Even if we cannot presently visit the imprisoned in person, we can visit them in our minds, and hearts, and prayers.</p>
 
 <p>Triptychs are a form of early Christian art from the Middle Ages, typically paintings of scenes from Scripture. They would be placed prominently in churches and the homes of wealthy patrons, and used for devotional purposes. They form a tripartite view of things, something worth reflecting on. And for the readings, I wanted to make something that felt <i>tactile</i> at a time when we experience images in increasingly abstract, commodified ways. I also wanted to create something that felt down-to-earth, even throwaway. Vision is available to all of us. We're forever surrounded by scenes of beauty and significance, no matter where we are. We just need a little willingness to look.</p>
 
 <p class="author">— Brandon Dorn</p>
 
-<p>PS — Curt and I want to thank <a href="http://www.katiebillheimer.com/">Katie Bilheimer</a> for her talented work on the illustrated drop caps. Aren't they great?</p>
+<p>PS — Curt and I want to thank <a href="http://www.katiebillheimer.com/">Katie Billheimer</a> for her talented work on the illustrated drop caps. Aren't they great?</p>

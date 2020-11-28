@@ -34,5 +34,5 @@ If you’re struggling to see the next step on the path before you, I leave you 
 </blockquote>
 
 <div class="invitation">
-	<p>Join us for our online Christmas Eve service tonight at 6:00PM EST through our <a href="https://us02web.zoom.us/j/83177466348?pwd=NXNSTkE2eEFBRUZvZnFWRXlDWUNDZz09">Zoom link</a>, or learn more about us at the <a href="https://www.allgather.org/">Gathering Church website</a>. We hope to see you!</p>
+	<p>Join us for our online Christmas Eve service tonight at 6:00PM EST through our <a href="https://us02web.zoom.us/j/83177466348?pwd=NXNSTkE2eEFBRUZvZnFWRXlDWUNDZz09">Zoom link</a>, or learn more about us at the <a href="{{ site.gathering_url }}">Gathering Church website</a>. We hope to see you!</p>
 </div>
