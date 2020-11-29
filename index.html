@@ -8,7 +8,7 @@ layout: default
 	<a href="{{ post.url }}" class="todays-reading">
 			<p class="label"><span>Today's Reading</span> · {{ post.date | date: '%A %b %-d' }}</p>
 			<p class="title">{{ post.scripture }}</p>
-			<p class="author">by {{ post.author }}</p>
+			{% if post.author %}<p class="author">by {{ post.author }}</p> {% endif %}
 			<p class="excerpt">{{ post.excerpt | strip_newlines | strip_html | truncate: 160}}</p>
 			<p class="read-on">Read more</p>
 	</a> <!-- todays-reading -->

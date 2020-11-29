@@ -29,9 +29,7 @@ I will uphold you with my righteous right hand.</p>
 	<p class="source">Isaiah 41:10</p>
 </blockquote>
 
-
-
-<div class="pastor-photo">
+<div class="about-photo">
 	<img src="/src/img/lowndes.jpg" alt="The Lowndes family in front of a brick wall.">
 	<p class="label">Pastor Curt Lowndes <span>November 2020</span></p>
 </div>
@@ -64,6 +62,11 @@ I will uphold you with my righteous right hand.</p>
 
 <p>Triptychs are a form of early Christian art from the Middle Ages, typically paintings of scenes from Scripture. They would be placed prominently in churches and the homes of wealthy patrons, and used for devotional purposes. They form a tripartite view of things, something worth reflecting on. And for the readings, I wanted to make something that felt <i>tactile</i> at a time when we experience images in increasingly abstract, commodified ways. I also wanted to create something that felt down-to-earth, even throwaway. Vision is available to all of us. We're forever surrounded by scenes of beauty and significance, no matter where we are. We just need a little willingness to look.</p>
 
-<p class="author">— Brandon Dorn</p>
+
+<figure class="about-photo">
+	<img src="/src/img/bd-photo.jpg" alt="Photo of Brandon Dorn standing in front of a brick wall">
+	<p class="label">Brandon Dorn</p>
+</figure>
+
 
 <p>PS — Curt and I want to thank <a href="http://www.katiebillheimer.com/">Katie Billheimer</a> for her talented work on the illustrated drop caps. Aren't they great?</p>
