@@ -5,7 +5,6 @@ html {
 
   @media all and (min-width: $break-large) { font-size: 110%; }
   @media all and (max-width: $break-small) { font-size: 96%; }
-  @media all and (max-width: $break-tiny) { font-size: 92%; }
 }
 
 *, *:before, *:after { box-sizing: inherit; }
