@@ -4,7 +4,7 @@ html {
   font-size: 16px;
 
   @media all and (min-width: $break-large) { font-size: 110%; }
-  @media all and (max-width: $break-small) { font-size: 96%; }
+  @media all and (max-width: $break-small) { font-size: 98%; }
 }
 
 *, *:before, *:after { box-sizing: inherit; }
@@ -31,7 +31,7 @@ body {
 
 h1 {
   font-family: $serif;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 120%;
   margin-bottom: 2rem;
