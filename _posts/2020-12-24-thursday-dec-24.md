@@ -11,7 +11,7 @@ scripture_passage: In the beginning was the Word, and the Word was with God, and
 
 Most of 2020 has felt like we’re walking in the dark, stumbling through life without much light to guide the way. We have the bruises to prove it. We’ve been living on strange terrain indeed. We’ve experienced so much uncertainty, and we’re admitting how little we can see ahead of us.
 
-John of the Cross was a sixteenth-century monk whose best-known work is The Dark Night of the Soul. In reflecting on his work, Barbara Brown Taylor writes, “We are never more in danger of stumbling than when we think we know where we are going. When we can no longer see the path we are on, when we can no longer read the maps we have brought with us or sense anything in the dark that might tell us where we are, then and only then are we vulnerable to God’s protection.” I know I’m feeling that vulnerability these days.
+John of the Cross was a sixteenth-century monk whose best-known work is <i>The Dark Night of the Soul</i>. In reflecting on his work, Barbara Brown Taylor writes, “We are never more in danger of stumbling than when we think we know where we are going. When we can no longer see the path we are on, when we can no longer read the maps we have brought with us or sense anything in the dark that might tell us where we are, then and only then are we vulnerable to God’s protection.” I know I’m feeling that vulnerability these days.
 
 Our present condition requires trust in God to lead us, to show us the way, to hold our hands as we trip, to deliver us from our fears. Has there ever been a time this wasn’t the case? We can’t help but recognize it now. The path before us is shrouded in darkness.
 
