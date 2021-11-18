@@ -90,9 +90,13 @@
 			border-bottom: 1px solid $brown-05;
 
 			.week-link {
+
 				color: $brown-04;
+				font-weight: bold;
 				margin: 0.5rem 0 0.5rem -0.5rem;
 				padding: 0.5rem 1rem;
+
+				span { font-weight: normal; }
 			}
 
 			a {
@@ -149,7 +153,6 @@
 				}
 			}
 		} // .week-link
-
 	} // .contents
 
 	.check-back {
@@ -227,7 +230,13 @@
 		}
 	} // .week-title
 
-	img { border-radius: 4px; }
+	.week-image {
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 720px;
+		}		
+	} // .week-image
 
 	.week-context {
 		display: flex;
