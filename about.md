@@ -21,7 +21,7 @@ I will uphold you with my righteous right hand.</p>
 
 <div class="about-photo">
 	<img src="/src/img/about-lowndes.jpg" alt="The Lowndes family in front of a brick wall.">
-	<p class="label">Pastor Curt Lowndes <span>November 2021</span></p>
+	<p class="label">Olive, Curt, Jenny, and Eloise Lowndes <span>November 2021</span></p>
 </div>
 
 <hr>
