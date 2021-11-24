@@ -3,7 +3,21 @@ layout: reading
 week: 1
 author: Jenny Lowndes
 scripture: Exodus 13.17-22
-scripture_passage: Scripture...
+scripture_passage: When Pharaoh let the people go, God did not lead them by way of the land of the Philistines, although that was nearer&#59; for God thought, “If the people face war, they may change their minds and return to Egypt.” So God led the people by the roundabout way of the wilderness toward the Red Sea. The Israelites went up out of the land of Egypt prepared for battle. And Moses took with him the bones of Joseph who had required a solemn oath of the Israelites, saying, “God will surely take notice of you, and then you must carry my bones with you from here.” They set out from Succoth, and camped at Etham, on the edge of the wilderness. The Lord went in front of them in a pillar of cloud by day, to lead them along the way, and in a pillar of fire by night, to give them light, so that they might travel by day and by night. Neither the pillar of cloud by day nor the pillar of fire by night left its place in front of the people.
 ---
 
-Post...
+<p><b>Walking the Wilderness</b></p>
+
+The journey of parenthood has taken us through the wilderness for over a decade now. The ups and downs of surgeries, medication, IUIs, IVF, successful embryo transfers, Eloise and Olive, failed embryo transfers, a miscarriage, the hope of surrogacy, but then a pandemic. We’ve held both joy and pain together. We’ve trusted God is present and have seen and felt God’s guidance, but we haven’t understood the extra steps. Like the Israelites, why did it have to be the “roundabout way of the wilderness?” 
+
+Most days I don’t want to be in the wilderness, and I don’t want to take the “roundabout way” with our last two frozen embryos. I want it to be clear and straightforward. I want a baby. I want a uterus that doesn’t fail me. I don’t want to have to search for another gestational carrier. I don’t want to hear a superficial answer about God’s timing or God’s plan for me. Today, the pillars of cloud and fire make me angry because their presence means I’m still in the wilderness. I have been chasing them for eleven years now. How long, oh Lord? I am tired. When will the darkness become light? Will the darkness finally overcome me? When will the wilderness become the promised land? When will our fertility journey end? 
+
+Sarah Bessey writes, “And here’s the thing about being in the wilderness. You get to go to the heights and the depths, the length and the breadth of the love of God in a way you never could have if you’d remained inside where it was safe.”
+
+Our wilderness story is hard to tell because it is still being written. I long to get out of the wilderness, but, gracious, I am thankful that it brought us Eloise, Olive and the ability to experience God in new ways. Good things have happened here, and good people have traveled with us. We have experienced the height, depth, length and breadth of the love of God in both the joys and sorrows, through our friends, our family, our church, our health care providers and our children. I have learned that gratitude and sorrow are not mutually exclusive. I have felt despair yet haven’t lost hope because I can feel the presence of something bigger than me nudging me on. I often want to run to safety but continue to be intrigued by the fire and the cloud that lead me deeper into the wild, deeper into God’s love.
+
+Perhaps you too know similar stories or maybe you are living a similar story, stories about being in the wilderness too long, stories of not understanding the way, stories where pillars of cloud and fire and the presence of God seem absolutely impossible, yet when they appear you can’t help but follow them. We run to the edge of our limits because we know that God has gone before us and goes with us now.
+
+God doesn’t promise to keep us out of the wilderness, but God does promise to journey with us. We have not been abandoned. Maybe the wilderness is an essential stop on the journey, one that can’t be skipped. Maybe it’s where we learn dependence on God and our traveling companions. If you are struggling to see the pillars of cloud and fire, try asking a friend if they see them or can help you find them. Our friends can’t keep us out of wilderness, but, like God, they can make it harder to feel alone in there.
+God, I don’t want to be swallowed by the wilderness, nor do I want to be fooled by the mirage of ease. I need you with us always, everywhere, in the deepest of depths as well as the highest of heights. Be near, oh God, open our eyes to the fire and cloud. Let us cling to your promise that the darkness will not overcome. Amen.
+

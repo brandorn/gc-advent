@@ -3,7 +3,16 @@ layout: reading
 week: 4
 author: Laura Yost-Grande
 scripture: John 16.1-7
-scripture_passage: Scripture...
+scripture_passage: I have said these things to you to keep you from stumbling. They will put you out of the synagogues. Indeed, an hour is coming when those who kill you will think that by doing so they are offering worship to God. And they will do this because they have not known the Father or me. But I have said these things to you so that when their hour comes you may remember that I told you about them. I did not say these things to you from the beginning, because I was with you. But now I am going to him who sent me&#59; yet none of you asks me, “Where are you going?” But because I have said these things to you, sorrow has filled your hearts. Nevertheless I tell you the truth&#58; it is to your advantage that I go away, for if I do not go away, the Advocate will not come to you&#59; but if I go, I will send him to you.
 ---
 
-Post...
+In this portion of John, Jesus is in the last days of his life. He is still teaching the disciples, wanting to prepare them for the days ahead. In today’s passage, Jesus starts by prophesying the deaths of the disciples. Their deaths will come at the hand of those who say they serve God but, in reality, don’t know God.
+
+Whoa! What shocking news to hear. Not expecting that from their Teacher of three years. They were used to learning about God’s mercy and grace through parables and miracles and teachings about new life in the kingdom of God. The disciples become so stuck on that prophecy, so hyper-focused, that they didn’t hear what comes next. I imagine in that moment, they felt separated from Jesus, each feeling alone as they contemplated Jesus’s words.
+
+Have you ever felt separated from Jesus and the light that he radiates? Maybe you’ve felt the separation through the lingering illness of a loved one, the death of someone dear, a divorce, a child’s pain, the loss of a hoped-for future, the infirmities of an aging parent or your own or others’ mental health issues? Maybe you’re grieving and challenged because life now requires a readjustment, a new way of living. The process of readjusting can be as hard as the issues themselves. Those sorrows and griefs can lead us to places of hyper-focus—places of clinging. We can feel separated from the light and the joy that was. Like the disciples, we can feel alone.
+Though Jesus acknowledges his disciples’ grief, he wants them to be curious, to hear again that he must leave and go back to His Father. The disciples had asked about Jesus’s death before (13:36, 14:5), but it seems they didn’t really understand its meaning. Perhaps they were more focused on being left alone.
+
+Jesus once again gives them the good news, great news actually. Great news for us as well. Yes, the Light is going back to his Father—as he says he must—but he goes so that the Counselor can come to the disciples. Jesus is not leaving them to fend for themselves; he is sending the Holy Spirit—Advocate, Counselor, Encourager, Helper, Guide, Comforter, Spirit of truth. The disciples will have that Spirit to comfort them at Jesus’ death and give them all they need to continue spreading the good news.
+May we be comforted by this great news of love. We are not alone. No matter our circumstances, including our sorrows and grief, the Holy Spirit dwells within us, is around us and works through us. When we are hard pressed to remember that on our own, may we be reminded that we live in community, just as the Holy Spirit lives in community with God and Jesus. A community that can help lead us to healing, acceptance and new ways of living. May we be a community that depends on the Holy Spirit, sent to us by Jesus, to carry out the kingdom work here on earth.
+

@@ -263,7 +263,8 @@
 				padding: 2rem 2rem 1rem 2rem;
 
 				p:not(.verse) {
-					@include serif-extra-large;
+					@include serif-large;
+					font-style: italic;
 					margin-top: 0;
 				}
 
@@ -289,11 +290,7 @@
 				@media all and (max-width: $break-small) { margin-bottom: 1rem; }
 			}
 
-			p:not(.label) {
-				@include sans-medium;
-
-				font-style: italic;
-			}
+			p:not(.label) { @include serif-small; }
 		} // .week-practice
 	} // .week-context
 
@@ -376,7 +373,6 @@
 	.scripture {
 		border-bottom: double $brown-04;
 		border-top: double $brown-04;
-		
 		margin: 3rem auto 4rem auto;
 		max-width: 540px;
 		padding: 1rem 0;
@@ -384,6 +380,7 @@
 		.passage { 
 			@include serif-small; 
 			color: $black-02;
+			font-style: italic;
 		}
 
 		.verse {
@@ -462,7 +459,10 @@
 	}
 
 	.memory-passage {
-		p:nth-child(2) { @include serif-large; }
+		p:nth-child(2) { 
+			@include serif-large; 
+			font-style: italic;
+		}
 
 		p:nth-child(3) {
 			@include sans-small;
@@ -473,9 +473,9 @@
 
 	.weekly-practice {
 		p:not(.label) {
-			@include sans-medium;
+			@include serif-small;
 
-			font-style: italic;
+			//font-style: italic;
 		}
 	}
 
