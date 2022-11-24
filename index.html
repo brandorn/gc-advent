@@ -11,7 +11,7 @@ layout: default
 			{% if post.author %}<p class="author">by {{ post.author }}</p> {% endif %}
 			<p class="excerpt">{{ post.excerpt | strip_newlines | strip_html | truncate: 160}}</p>
 			<p class="read-on">Read more</p>
-	</a> <!-- todays-reading -->
+	</a> 
 	{% endfor %}
 
 	<div class="contents">
@@ -19,44 +19,44 @@ layout: default
 		<ul>
 			<li>
 				<a href="#week1">
-					<p class="week-link"><span>Week 1 (11/28 — 12/4)</span> The Darkness Did Not Overcome</p>
+					<p class="week-link"><span>Week 1 ({{ site.week_1_dates }})</span> {{ site.week_1_theme }}</p>
 				</a>
 			</li>
-			<li>
+			<!--<li>
 				<a href="#week2">
-					<p class="week-link"><span>Week 2 (12/5 — 12/11)</span> Vision in the Night</p>
+					<p class="week-link"><span>Week 2 ({{ site.week_2_dates }})</span> {{ site.week_2_theme }}</p>
 				</a>
 			</li>
 			<li>
 				<a href="#week3">
-					<p class="week-link"><span>Week 3 (12/12 — 12/18)</span> Overwhelming Light</p>
+					<p class="week-link"><span>Week 3 ({{ site.week_3_dates }})</span> {{ site.week_3_theme }}</p>
 				</a>
 			</li>
 			<li>
 				<a href="#week4">
-					<p class="week-link"><span>Week 4 (12/19 — 12/23)</span> Readjusting to the Dark</p>
+					<p class="week-link"><span>Week 4 ({{ site.week_4_dates }})</span> {{ site.week_4_theme }}</p>
 				</a>
 			</li>
 			<li>
 				<a href="#week5">
-					<p class="week-link"><span>Christmas Eve (12/24)</span> The Light Has Come</p>
+					<p class="week-link"><span>Christmas Eve ({{ site.week_5_dates }})</span> {{ site.week_5_theme }}</p>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 		<p class="check-back">New readings are added each day, so be sure to check back!</p>
-	</div> <!-- .contents -->
-</div> <!-- .intro -->
+	</div>
+</div>
 
 <a href="/about" class="about"><span>Read about this year's devotional</span></a>
 
 <section class="week-readings" id="week1">
 	<div class="week-title">
-		<p class="label">Week 1 (Nov 28 — Dec 4)</p>
-		<h2>The Darkness Did Not Overcome</h2>
+		<p class="label">Week 1 ({{ site.week_1_dates }})</p>
+		<h2>{{ site.week_1_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2021-week-1.jpg">
-		<figcaption>The Darkness Did Not Overcome</figcaption>
+		<img src="/src/img/art-2022-week-1.jpg">
+		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
@@ -87,14 +87,14 @@ layout: default
 	</div>
 </section>
 
-<section class="week-readings" id="week2">
+<!--<section class="week-readings" id="week2">
 	<div class="week-title">
-		<p class="label">Week 2 (Dec 5 —  Dec 11)</p>
-		<h2>Vision in the Night</h2>
+		<p class="label">Week 2 ({{ site.week_2_dates }})</p>
+		<h2>{{ site.week_2_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2021-week-2.jpg" alt="Bright yellow maple leaves">
-		<figcaption>Vision in the Night</figcaption>
+		<img src="/src/img/art-2022-week-2.jpg">
+		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
@@ -127,12 +127,12 @@ layout: default
 
 <section class="week-readings" id="week3">
 	<div class="week-title">
-		<p class="label">Week 3 (Dec 12 — Dec 18)</p>
-		<h2>Overwhelming Light</h2>
+		<p class="label">Week 3 ({{ site.week_3_dates }})</p>
+		<h2>{{ site.week_3_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2021-week-3.jpg" alt="Children running in the light.">
-		<figcaption>Overwhelming Light</figcaption>
+		<img src="/src/img/art-2022-week-3.jpg">
+		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
@@ -165,12 +165,12 @@ layout: default
 
 <section class="week-readings" id="week4">
 	<div class="week-title">
-		<p class="label">Week 4 (Dec 19 — Dec 23)</p>
-		<h2>Readjusting to the Dark</h2>
+		<p class="label">Week 4 ({{ site.week_4_dates }})</p>
+		<h2>{{ site.week_4_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2021-week-4.jpg" alt="Different angles of the Durham County Detention Center">
-		<figcaption>Readjusting to the Dark</figcaption>
+		<img src="/src/img/art-2022-week-4.jpg">
+		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
 		<div class="memory-passage">
@@ -204,11 +204,11 @@ layout: default
 <section class="week-readings" id="week5">
 	<div class="week-title">
 		<p class="label">Christmas Eve</p>
-		<h2>The Light Has Come</h2>
+		<h2>{{ site.week_5_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2021-week-5.jpg" alt="A brightly-lit holly bush.">
-		<figcaption>The Light Has Come</figcaption>
+		<img src="/src/img/art-2022-week-5.jpg">
+		<figcaption></figcaption>
 	</figure>
 	<div class="readings">
 		<p class="label">Christmas Eve Reading</p>
@@ -224,7 +224,4 @@ layout: default
 		{% endfor %}
 		</div>
 	</div>
-</section>
-
-
-
+</section> -->

@@ -1,26 +1,3 @@
-title: Gathering Church 2021 Advent Devotional
-description: Daily Advent readings written by members of the Gathering Church in Durham, North Carolina.
-
-week_1_theme: The Darkness Did Not Overcome
-week_1_passage: The Lord went in front of them in a pillar of cloud by day, to lead them along the way, and in a pillar of fire by night, to give them light, so that they might travel by day and by night. Neither the pillar of cloud by day nor the pillar of fire by night left its place in front of the people.
-week_1_passage_verse: — Exodus 13:21-22
-week_1_practice: Walk outside this week, stand still and look up into the night. Imagine a pillar of fire guiding you and not letting the darkness overcome your steps. How does it feel to take steps by the Light as it is going before you? Jesus wants you to know he is here and will never leave you.
-
-week_2_theme: Vision in the Night
-week_2_passage: But just when he had resolved to do this, an angel of the Lord appeared to him in a dream and said, “Joseph, son of David, do not be afraid to take Mary as your wife, for the child conceived in her is from the Holy Spirit. She will bear a son, and you are to name him Jesus, for he will save his people from their sins.
-week_2_passage_verse: — Matthew 1.20-21
-week_2_practice: Consider that God wants to bring something vital into the world through you. You will help give others vision in the night. Does the idea of being this important to God frighten you in some way? Take this week’s memory verse about Joseph and substi-tute your name as if God is speaking directly to you. For instance, ‘Sally, daughter of the Brown family, do not be afraid to …’ What does your sentence say?
-
-week_3_theme: Overwhelming Light
-week_3_passage: For it was you who formed my inward parts&#59; <br> you knit me together in my mother’s womb. <br> I praise you, for I am fearfully and wonderfully made. <br> Wonderful are your works&#59; <br> that I know very well.
-week_3_passage_verse: — Psalm 139.13-14
-week_3_practice: If you have a smartphone, record a memo of yourself reading Psalm 139:13-14. Make no judgments about the sound of your voice.<br><br>If you have sight, look in the mirror for as long as you can without making any assessments about the face looking back at you. Now look in the mirror while you listen to your recording of Psalm 139:13-14.<br><br>Your voice and your face are made in the image of God who sees you in the full light of Jesus. End by saying out loud the final verse again, “Wonderful are your works; that I know very well.” Amen.
-
-week_4_theme: Readjusting to the Dark
-week_4_passage: Yet more than ever believers were added to the Lord, great numbers of both men and women, so that they even carried out the sick into the streets, and laid them on cots and mats, in order that Peter’s shadow might fall on some of them as he came by.
-week_4_passage_verse: — Acts 5.14-15
-week_4_practice: Most people in the United States have not carried their sick friends or family members into the streets on cots and mats. But epidemics of loneliness and anxiety affect many of us who go about our daily lives. This week check on someone who may be struggling. Keep your vision adjusted in the darkness so that you can see others. Add them to your heart and home, and introduce them again or for the first time to Jesus.
-
 url: "https://www.gcadvent.com"
 gathering_url: http://allgather.org
 zoom_link: http://allgather.org/live
@@ -29,3 +6,36 @@ markdown: kramdown
 future: false
 sass:
   sass_dir: src/styles/_sass
+
+title: Gathering Church 2022 Advent Devotional
+description: Daily Advent readings written by members of the Gathering Church in Durham, North Carolina.
+
+devotional_theme: Rooted
+devotional_year: 2022
+
+week_1_dates: Nov 27 - Dec 3
+week_1_theme: Plant
+week_1_passage: But seek the welfare of the city where I have sent you into exile, and pray to the Lord on its behalf, for in its welfare you will find your welfare.
+week_1_passage_verse: — Jeremiah 29.7
+week_1_practice: <ul><li><p>Make a list of those who helped plant the seed of faith in your life. Thank God for them.</p></li><li><p>Plant a "seed" of a good word into someone else's life each day this week.</p></li><li><p>Pray for the welfare of your city.</p></li><li><p>Engage in one activity that will promote the welfare of your city.</p></li></ul>
+
+week_2_dates: Dec 4 - Dec 10
+week_2_theme: Grow
+week_2_passage: Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us, to him be glory in the church and in Christ Jesus throughout all generations, for ever and ever! Amen.
+week_2_passage_verse: — Ephesians 3.20-21
+week_2_practice: <ul><li><p>Reflect on your journey with Christ. Would you consider it to be characterized by fast growth or slow growth?</p></li><li><p>What helps you grow? Do something that is life-giving for you this week.</p></li><li><p>What stunts your growth? Refrain from something that is life-draining for you this week.</p></li><li><p>Growth can be hard to see. Practice slowing down this week. Eat a slow meal or go on a slow walk. Choose something you normally rush through and intentionally take it easy.</p></li></ul>
+
+week_3_dates: Dec 11 - Dec 17
+week_3_theme: Harvest
+week_3_passage: So let us not grow weary in doing what is right, for we will reap at harvest time, if we do not give up. So then, whenever we have an opportunity, let us work for the good of all and especially for those of the family of faith.
+week_3_passage_verse: — Galatians 6.9 
+week_3_practice: <ul><li><p>Practice rest this week&#58; take a nap, read a novel, listen to an album, watch the sunset, or sit and do nothing.</p></li><li><p>Once you've rested, do something good for someone else, maybe something that will enable them to rest.</p></li></ul>
+
+week_4_dates: Dec 17 - Dec 23
+week_4_theme: Share
+week_4_passage: But the angel said to them, "Do not be afraid, for see, I am bringing you good news of great joy for all the people&#58; to you is born this day in the city of David a Savior, who is the Messiah, the Lord.
+week_4_passage_verse: — Luke 2.10-11 
+week_4_practice: <ul><li><p>What's something you can share this week? Consider giving something away or including another person in an activity or a meal.</p></li><li><p>Practice celebration&#58; dance, sing, shout, and laugh.</p></li><li><p>Find a creative way to be generous to someone this week.</p></li><li><p>Spread joy to a neighbor.</p></li></ul>
+
+week_5_dates: Dec 24
+week_5_theme: Enjoy

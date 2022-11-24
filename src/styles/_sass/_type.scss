@@ -95,6 +95,8 @@ $serif: 'Calluna', Georgia, serif;
   line-height: 140%;
 }
 
+.sans-small { @include sans-small; }
+
 @mixin sans-small-bold {
   font-family: $sans;
   font-size: 0.9rem;

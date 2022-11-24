@@ -38,24 +38,46 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: $serif;
+  font-size: 1.8rem;
+}
+
 p {
   @include serif-medium;
 
   color: $black-01;
   line-height: 150%;
+
+  &.caption {
+    @include sans-small;
+    color: $black-03;
+    margin-bottom: 4rem;
+
+    &:after {
+      background: $brown-04;
+      content: "";
+      display: block;
+      height: 2px;
+      margin-top: 2rem;
+      width: 6rem;
+    }
+  }
+
 }
 
 a:link,
 a:visited {
-  color: $blue-02;
-  text-decoration: none;
+  color: $blue-03;
 }
 
 a:hover,
 a:active {
-  color: $blue-03;
+  color: $blue-02;
   text-decoration: underline;
 }
+
+ul { p { margin: 0.5rem 0;} }
 
 ol {
   list-style: none;
