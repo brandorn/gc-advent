@@ -34,12 +34,12 @@ layout: default
 			</li>
 			<li>
 				<a href="#week4">
-					<p class="week-link"><span>Week 4 ({{ site.week_4_dates }})</span> {{ site.week_4_theme }}</p>
+					<p class="week-link"><span>Christmas Eve ({{ site.week_4_dates }})</span> {{ site.week_4_theme }}</p>
 				</a>
 			</li>
 			<li>
 				<a href="#week5">
-					<p class="week-link"><span>Christmas Eve ({{ site.week_5_dates }})</span> {{ site.week_5_theme }}</p>
+					<p class="week-link"><span>Christmas Day ({{ site.week_5_dates }})</span> {{ site.week_5_theme }}</p>
 				</a>
 			</li>
 		</ul>
@@ -55,7 +55,7 @@ layout: default
 		<h2>{{ site.week_1_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2022-week-1.jpg">
+		<img src="/src/img/art-2023-week-1.jpg">
 		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
@@ -93,7 +93,7 @@ layout: default
 		<h2>{{ site.week_2_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2022-week-2.jpg">
+		<img src="/src/img/art-2023-week-2.jpg">
 		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
@@ -131,7 +131,7 @@ layout: default
 		<h2>{{ site.week_3_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2022-week-3.jpg">
+		<img src="/src/img/art-2023-week-3.jpg">
 		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
@@ -165,11 +165,11 @@ layout: default
 
 <section class="week-readings" id="week4">
 	<div class="week-title">
-		<p class="label">Week 4 ({{ site.week_4_dates }})</p>
+		<p class="label">Christmas Eve</p>
 		<h2>{{ site.week_4_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2022-week-4.jpg">
+		<img src="/src/img/art-2023-week-4.jpg">
 		<figcaption></figcaption>
 	</figure>
 	<div class="week-context">
@@ -181,12 +181,12 @@ layout: default
 			</div>
 		</div>
 		<div class="weekly-practice">
-			<p class="label">Weekly Practice</p>
+			<p class="label">Practice</p>
 			<p> {{ site.week_4_practice}}</p>
 		</div>
 	</div>
 	<div class="readings">
-		<p class="label">Week 4 Readings</p>
+		<p class="label">Christmas Eve Reading</p>
 		<div class="readings-container">
 		{% for post in site.posts reversed %}
 			{% if post.week == 4 %}
@@ -203,15 +203,28 @@ layout: default
 
 <section class="week-readings" id="week5">
 	<div class="week-title">
-		<p class="label">Christmas Eve</p>
+		<p class="label">Christmas Day</p>
 		<h2>{{ site.week_5_theme }}</h2>
 	</div>
 	<figure class="week-image">
-		<img src="/src/img/art-2022-week-5.jpg">
+		<img src="/src/img/art-2023-week-5.jpg">
 		<figcaption></figcaption>
 	</figure>
+	<div class="week-context">
+		<div class="memory-passage">
+			<p class="label">Memory Passage</p>
+			<div class="passage">
+				<p> {{ site.week_5_passage}}</p>
+				<p class="verse">{{ site.week_5_passage_verse }}</p>
+			</div>
+		</div>
+		<div class="weekly-practice">
+			<p class="label">Practice</p>
+			<p> {{ site.week_5_practice}}</p>
+		</div>
+	</div>
 	<div class="readings">
-		<p class="label">Christmas Eve Reading</p>
+		<p class="label">Christmas Day Reading</p>
 		<div class="readings-container">
 		{% for post in site.posts %}
 			{% if post.week == 5 %}

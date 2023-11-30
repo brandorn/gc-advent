@@ -7,35 +7,41 @@ future: false
 sass:
   sass_dir: src/styles/_sass
 
-title: Gathering Church 2022 Advent Devotional
+title: Gathering Church 2023 Advent Devotional
 description: Daily Advent readings written by members of the Gathering Church in Durham, North Carolina.
 
-devotional_theme: Rooted
-devotional_year: 2022
+devotional_theme: The Weary World Rejoices
+devotional_year: 2023
 
-week_1_dates: Nov 27 - Dec 3
-week_1_theme: Plant
-week_1_passage: But seek the welfare of the city where I have sent you into exile, and pray to the Lord on its behalf, for in its welfare you will find your welfare.
-week_1_passage_verse: — Jeremiah 29.7
-week_1_practice: <ul><li><p>Make a list of those who helped plant the seed of faith in your life. Thank God for them.</p></li><li><p>Plant a "seed" of a good word into someone else's life each day this week.</p></li><li><p>Pray for the welfare of your city.</p></li><li><p>Engage in one activity that will promote the welfare of your city.</p></li></ul>
+week_1_dates: Dec 3 — Dec 9
+week_1_theme: Acknowledge Weariness
+week_1_passage: A voice cries out&#58; “In the wilderness prepare the way of the Lord&#59; make straight in the desert a highway for our God."
+week_1_passage_verse: — Isaiah 40&#58;3
+week_1_practice: <ul><li><p>Write a list of everything that makes you weary. Rip it up.</p></li><li><p>Reach out to someone who might be feeling weary. Tell them, “I’ve been thinking about you.”</p></li><li><p>Breathe deeply and pray. With every exhale, release something that makes you weary. With every inhale, ask God for something that brings you joy.</p></li></ul>
 
-week_2_dates: Dec 4 - Dec 10
-week_2_theme: Grow
-week_2_passage: Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us, to him be glory in the church and in Christ Jesus throughout all generations, for ever and ever! Amen.
-week_2_passage_verse: — Ephesians 3.20-21
-week_2_practice: <ul><li><p>Reflect on your journey with Christ. Would you consider it to be characterized by fast growth or slow growth?</p></li><li><p>What helps you grow? Do something that is life-giving for you this week.</p></li><li><p>What stunts your growth? Refrain from something that is life-draining for you this week.</p></li><li><p>Growth can be hard to see. Practice slowing down this week. Eat a slow meal or go on a slow walk. Choose something you normally rush through and intentionally take it easy.</p></li></ul>
 
-week_3_dates: Dec 11 - Dec 17
-week_3_theme: Harvest
-week_3_passage: So let us not grow weary in doing what is right, for we will reap at harvest time, if we do not give up. So then, whenever we have an opportunity, let us work for the good of all and especially for those of the family of faith.
-week_3_passage_verse: — Galatians 6.9 
-week_3_practice: <ul><li><p>Practice rest this week&#58; take a nap, read a novel, listen to an album, watch the sunset, or sit and do nothing.</p></li><li><p>Once you've rested, do something good for someone else, maybe something that will enable them to rest.</p></li></ul>
+week_2_dates: Dec 10 - Dec 16
+week_2_theme: Discover Joy
+week_2_passage: The angel said to Mary, “The Holy Spirit will come upon you, and the power of the Most High will overshadow you&#59; therefore the child to be born will be holy&#59; he will be called Son of God.”
+week_2_passage_verse: — Luke 1&#58;35
+week_2_practice: <ul><li><p>Write a list of everything—big and small—that brings you joy. Display it somewhere you will see it daily.</p></li><li><p>Reach out to someone who brings you joy. Tell them, “I appreciate you.”</p></li><li><p>Practice embodied joy. For example, cook or eat something that fills you with delight. Or listen to your favorite song and sing or dance along.</p></li></ul>
 
-week_4_dates: Dec 17 - Dec 23
-week_4_theme: Share
-week_4_passage: But the angel said to them, "Do not be afraid, for see, I am bringing you good news of great joy for all the people&#58; to you is born this day in the city of David a Savior, who is the Messiah, the Lord.
-week_4_passage_verse: — Luke 2.10-11 
-week_4_practice: <ul><li><p>What's something you can share this week? Consider giving something away or including another person in an activity or a meal.</p></li><li><p>Practice celebration&#58; dance, sing, shout, and laugh.</p></li><li><p>Find a creative way to be generous to someone this week.</p></li><li><p>Spread joy to a neighbor.</p></li></ul>
+week_3_dates: Dec 17 - Dec 23
+week_3_theme: Be Amazed
+week_3_passage: The wolf shall live with the lamb&#59;<br>the leopard shall lie down with the kid&#59;<br>the calf and the lion will feed together,<br>and a little child shall lead them.<br>
+week_3_passage_verse: — Isaiah 11&#58;6
+week_3_practice: <ul><li><p>Go on a walk in a familiar place. As often as you can, stop and look up. Pay attention to details you usually miss.</p></li><li><p>Spend time looking at the night sky and stars. Offer a prayer of gratitude to God.</p></li><li><p>Look back at the list of joys from Week Two. Do something on that list!</p></li></ul>
 
-week_5_dates: Dec 24
-week_5_theme: Enjoy
+
+week_4_dates: Dec 24
+week_4_theme: Sing Hope
+week_4_passage: And Mary said,<br>“My soul magnifies the Lord,<br>and my spirit rejoices in God my Savior…”
+week_4_passage_verse: — Luke 1&#58;46-47
+week_4_practice: <ul><li><p>Ask someone who is older than you what gives them hope. Then, ask someone who is younger than you what gives them hope. What did you learn?</p></li><li><p>Listen to or sing the song, “O Holy Night.” What gives you a “thrill of hope”?</p></li><li><p>Look back at the list of joys from Week Two. Do something on that list!</p></li></ul>
+
+
+week_5_dates: Dec 25
+week_5_theme: Make Room
+week_5_passage: But the angel said to them, “Do not be afraid, for see, I am bringing you good news of great joy for all the people&#58; to you is born this day in the city of David a Savior, who is the Messiah, the Lord.
+week_5_passage_verse: — Luke 2&#58;10-11
+week_5_practice: <ul><li><p>Reflect on how you might make room in your life by eliminating or removing something.</p></li><li><p>Reach out to someone you’d like to get to know better.</p></li><li><p>Do something kind for a neighbor or family member that you wouldn’t normally do.</p></li></ul>

@@ -3,7 +3,6 @@ Gathering Church 2020 Advent Devotional website
 
 ## Annual setup checklist
 
-1. Cut a release for previous year's devotional
 1. Convert devos to [post template](https://docs.google.com/document/d/1SH8h3HhdZk2kK2HhBFPvhEAHN8BkvuRb_wJ5dILeEq8/edit?usp=share_link)
 1. Export files to .md, scan for issues
 1. Move old posts to _drafts
