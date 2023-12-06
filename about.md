@@ -29,15 +29,15 @@ title: About
 
 <h2>Artist Statement</h2>
 
-<p>I hope these small, artistic pieces will serve as doorways into the scriptures and the devotionals written by members of our church family.</p>
+<p>My hope is that these small pieces will serve as doorways into the scriptures and the devotionals written by members of our church family.</p>
 
-<p><i>Acknowledge Weariness</i>, an abstract, desert piece, calls to mind dryness and our heart's thirst for God. When we read of John's call to prepare the way for the Messiah, John speaks of our need for a Redeemer while in the desert himself. <i>Be Amazed</i> depicts an example of life suddenly springing forth from a dry tree stump. This new life is a sign of the child who shall become our Redeemer and a call back to the prophecy of a peaceable kingdom in Isaiah 11.</p>
+<p>The desert is an abstract piece calling to mind dryness and our heart's thirst for God. It is interesting to me that when we read of John's call to prepare the way for the Messiah, it is from the desert that he speaks of our need for a redeemer.</p>
 
-<p>I noticed, as I was making the art, the contrast between our weak and human state and the overwhelming holiness of God. God’s beauty is displayed as God breaks into our world to announce the birth of Jesus. I tried to depict some of that wonder and beauty in both the <i>Discover Joy</i> and <i>Make Room</i> pieces. The angel Gabriel first appeared to Zechariah, Mary and Joseph. On the night Jesus was born, the night sky became filled with an awe-inspiring army of angels that came to the shepherds. Later, the guiding star brightened the sky and led the wise men to the young child, Jesus.</p>
+<p>I noticed as I was making the art, the contrast between our very weak and human state and the overwhelming beauty and holiness of God that is displayed as he breaks into our world to announce the birth of Jesus.  I tried to depict some of that wonder and beauty in both the image of Gabriel and in the Christmas night sky that held the army of angels that came to the shepherds and the guiding star that led the wise men to the young child.</p>
 
-<p>Finally, <i>Sing Hope</i> is a drawing of a young, pregnant Mary. I wanted to focus on her love for God and her intimate worship. I drew her holding the rose, which is often associated with Mary, and a palm. After I finished the drawing, I learned that the palm symbolizes the victory of the faithful over the enemies of the soul, a beautiful reference to our redemption.</p>
+<p>In the drawing of a young, pregnant Mary I wanted to focus on her love for God and her intimate worship of him.  I drew her holding the rose, which is often associated with Mary, and a palm.  It was only after I had finished the drawing that I looked up the meaning of the palm, and found that it symbolizes the victory of the faithful over the enemies of the soul, another beautiful reference to our redemption.</p>
 
-<p>About the Medium: <i>Acknowledge Weariness</i>, <i>Discover Joy</i>, and <i>Be Amazed</i> are collages using handmade paper, rice paper and tissue paper. <i>Sing Hope</i> is ink and watercolor pencil on paper. Finally, <i>Make Room</i> is ink on handmade rag paper.</p>
+<p>The first three pieces are collage, using handmade paper, rice paper and tissue paper. The night sky is ink on handmade rag paper, and the dance of Mary is ink and watercolor pencil on paper.</p>
 
 <p class="sans-small">— Anna Sircar</p>
 
