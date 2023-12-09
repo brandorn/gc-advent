@@ -123,7 +123,7 @@
 						@media all and (max-width: $break-medium) { top: 19px; }
 					}
 					
-					span { color: $blue-03; }
+					span {color: $blue-03; }
 				}
 
 				&:hover {
@@ -146,6 +146,8 @@
 			span { 
 				display: inline-block;
 				width: 180px;
+
+				@media all and (min-width: $break-large) { width: 208px; }
 
 				@media all and (max-width: $break-medium) {
 					display: block;
